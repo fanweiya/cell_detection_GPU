@@ -1,0 +1,2 @@
+C:\TensorRT-8.4.0.6\bin\trtexec.exe --onnx=best.onnx --saveEngine=best.engine --explicitBatch --fp16
+

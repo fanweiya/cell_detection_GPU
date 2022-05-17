@@ -1,0 +1,2019 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="image" output_port_id="image" />
+		<IR name="image" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@135" output_port_id="Constant@135" />
+		<IR name="Constant@135" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@134" output_port_id="Constant@134" />
+		<IR name="Constant@134" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@99" output_port_id="Constant@99" />
+		<IR name="Constant@99" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@98" output_port_id="Constant@98" />
+		<IR name="Constant@98" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@93" output_port_id="Constant@93" />
+		<IR name="Constant@93" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@92" output_port_id="Constant@92" />
+		<IR name="Constant@92" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@71" output_port_id="Constant@71" />
+		<IR name="Constant@71" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@70" output_port_id="Constant@70" />
+		<IR name="Constant@70" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@65" output_port_id="Constant@65" />
+		<IR name="Constant@65" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@64" output_port_id="Constant@64" />
+		<IR name="Constant@64" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@23" output_port_id="Constant@23" />
+		<IR name="Constant@23" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@22" output_port_id="Constant@22" />
+		<IR name="Constant@22" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@17" output_port_id="Constant@17" />
+		<IR name="Constant@17" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@16" output_port_id="Constant@16" />
+		<IR name="Constant@16" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@5" output_port_id="Constant@5" />
+		<IR name="Constant@5" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@4" output_port_id="Constant@4" />
+		<IR name="Constant@4" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@0/mean/Fused_Mul__copy" output_port_id="conv1_weights" />
+		<IR name="BatchNormalization@0/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@0/variance/Fused_Add_" output_port_id="Cast@0" />
+		<IR name="BatchNormalization@0/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@0/variance/Fused_Add_" output_port_id="batch_norm_0.tmp_3" />
+		<IR name="BatchNormalization@0/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@1" output_port_id="Constant@1" />
+		<IR name="Constant@1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@0" output_port_id="Constant@0" />
+		<IR name="Constant@0" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@0" output_port_id="Mul@0" />
+		<IR name="Mul@0" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@0" output_port_id="tmp_0" />
+		<IR name="Add@0" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@0" output_port_id="relu6_0.tmp_0" />
+		<IR name="Clip@0" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@1" output_port_id="Cast@1" />
+		<IR name="Mul@1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@1" output_port_id="tmp_1" />
+		<IR name="Mul@1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@2" output_port_id="Mul@2" />
+		<IR name="Mul@2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@1" output_port_id="tmp_2" />
+		<IR name="Add@1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@1/mean/Fused_Mul__copy" output_port_id="conv2_expand_weights" />
+		<IR name="BatchNormalization@1/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@1/variance/Fused_Add_" output_port_id="batch_norm_1.tmp_3" />
+		<IR name="BatchNormalization@1/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@0" output_port_id="relu_0.tmp_0" />
+		<IR name="Relu@0" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@2/mean/Fused_Mul__copy" output_port_id="conv2_depthwise_weights" />
+		<IR name="BatchNormalization@2/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@2/variance/Fused_Add_" output_port_id="batch_norm_2.tmp_3" />
+		<IR name="BatchNormalization@2/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@1" output_port_id="relu_1.tmp_0" />
+		<IR name="Relu@1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@3/mean/Fused_Mul__copy" output_port_id="conv2_linear_weights" />
+		<IR name="BatchNormalization@3/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@3/variance/Fused_Add_" output_port_id="batch_norm_3.tmp_3" />
+		<IR name="BatchNormalization@3/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@2" output_port_id="elementwise_add_0.tmp_0" />
+		<IR name="Add@2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@4/mean/Fused_Mul__copy" output_port_id="conv3_expand_weights" />
+		<IR name="BatchNormalization@4/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@4/variance/Fused_Add_" output_port_id="batch_norm_4.tmp_3" />
+		<IR name="BatchNormalization@4/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@2" output_port_id="relu_2.tmp_0" />
+		<IR name="Relu@2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@5/mean/Fused_Mul__copy" output_port_id="conv3_depthwise_weights" />
+		<IR name="BatchNormalization@5/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@5/variance/Fused_Add_" output_port_id="batch_norm_5.tmp_3" />
+		<IR name="BatchNormalization@5/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@3" output_port_id="relu_3.tmp_0" />
+		<IR name="Relu@3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@6/mean/Fused_Mul__copy" output_port_id="conv3_linear_weights" />
+		<IR name="BatchNormalization@6/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@6/variance/Fused_Add_" output_port_id="batch_norm_6.tmp_3" />
+		<IR name="BatchNormalization@6/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@7/mean/Fused_Mul__copy" output_port_id="conv4_expand_weights" />
+		<IR name="BatchNormalization@7/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@7/variance/Fused_Add_" output_port_id="batch_norm_7.tmp_3" />
+		<IR name="BatchNormalization@7/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@4" output_port_id="relu_4.tmp_0" />
+		<IR name="Relu@4" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@8/mean/Fused_Mul__copy" output_port_id="conv4_depthwise_weights" />
+		<IR name="BatchNormalization@8/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@8/variance/Fused_Add_" output_port_id="batch_norm_8.tmp_3" />
+		<IR name="BatchNormalization@8/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@5" output_port_id="relu_5.tmp_0" />
+		<IR name="Relu@5" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@9/mean/Fused_Mul__copy" output_port_id="conv4_linear_weights" />
+		<IR name="BatchNormalization@9/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@9/variance/Fused_Add_" output_port_id="batch_norm_9.tmp_3" />
+		<IR name="BatchNormalization@9/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@3" output_port_id="elementwise_add_1.tmp_0" />
+		<IR name="Add@3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@10/mean/Fused_Mul__copy" output_port_id="conv5_expand_weights" />
+		<IR name="BatchNormalization@10/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@10/variance/Fused_Add_" output_port_id="batch_norm_10.tmp_3" />
+		<IR name="BatchNormalization@10/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@6" output_port_id="relu_6.tmp_0" />
+		<IR name="Relu@6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@11/mean/Fused_Mul__copy" output_port_id="conv5_depthwise_weights" />
+		<IR name="BatchNormalization@11/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@11/variance/Fused_Add_" output_port_id="batch_norm_11.tmp_3" />
+		<IR name="BatchNormalization@11/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@7" output_port_id="relu_7.tmp_0" />
+		<IR name="Relu@7" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="GlobalAveragePool@0/reduce" output_port_id="pool2d_0.tmp_0" />
+		<IR name="GlobalAveragePool@0/reduce" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv5_se_1_weights" output_port_id="conv5_se_1_weights" />
+		<IR name="conv5_se_1_weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@12" output_port_id="conv2d_8.tmp_0" />
+		<IR name="Conv@12" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Reshape@0" output_port_id="Reshape@0" />
+		<IR name="Reshape@0" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add@4" output_port_id="conv2d_8.tmp_1" />
+		<IR name="Add@4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@8" output_port_id="conv2d_8.tmp_2" />
+		<IR name="Relu@8" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv5_se_2_weights" output_port_id="conv5_se_2_weights" />
+		<IR name="conv5_se_2_weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@13" output_port_id="conv2d_9.tmp_0" />
+		<IR name="Conv@13" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Reshape@1" output_port_id="Reshape@1" />
+		<IR name="Reshape@1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add@5" output_port_id="conv2d_9.tmp_1" />
+		<IR name="Add@5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="HardSigmoid@0/HardSigmoid_" output_port_id="conv2d_9.tmp_2" />
+		<IR name="HardSigmoid@0/HardSigmoid_" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Mul@3" output_port_id="elementwise_mul_0.tmp_0" />
+		<IR name="Mul@3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@12/mean/Fused_Mul__copy" output_port_id="conv5_linear_weights" />
+		<IR name="BatchNormalization@12/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@12/variance/Fused_Add_" output_port_id="batch_norm_12.tmp_3" />
+		<IR name="BatchNormalization@12/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@13/mean/Fused_Mul__copy" output_port_id="conv6_expand_weights" />
+		<IR name="BatchNormalization@13/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@13/variance/Fused_Add_" output_port_id="batch_norm_13.tmp_3" />
+		<IR name="BatchNormalization@13/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@9" output_port_id="relu_8.tmp_0" />
+		<IR name="Relu@9" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@14/mean/Fused_Mul__copy" output_port_id="conv6_depthwise_weights" />
+		<IR name="BatchNormalization@14/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@14/variance/Fused_Add_" output_port_id="batch_norm_14.tmp_3" />
+		<IR name="BatchNormalization@14/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@10" output_port_id="relu_9.tmp_0" />
+		<IR name="Relu@10" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="GlobalAveragePool@1/reduce" output_port_id="pool2d_1.tmp_0" />
+		<IR name="GlobalAveragePool@1/reduce" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv6_se_1_weights" output_port_id="conv6_se_1_weights" />
+		<IR name="conv6_se_1_weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@17" output_port_id="conv2d_12.tmp_0" />
+		<IR name="Conv@17" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Reshape@2" output_port_id="Reshape@2" />
+		<IR name="Reshape@2" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add@6" output_port_id="conv2d_12.tmp_1" />
+		<IR name="Add@6" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@11" output_port_id="conv2d_12.tmp_2" />
+		<IR name="Relu@11" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv6_se_2_weights" output_port_id="conv6_se_2_weights" />
+		<IR name="conv6_se_2_weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@18" output_port_id="conv2d_13.tmp_0" />
+		<IR name="Conv@18" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Reshape@3" output_port_id="Reshape@3" />
+		<IR name="Reshape@3" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add@7" output_port_id="conv2d_13.tmp_1" />
+		<IR name="Add@7" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="HardSigmoid@1/HardSigmoid_" output_port_id="conv2d_13.tmp_2" />
+		<IR name="HardSigmoid@1/HardSigmoid_" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Mul@4" output_port_id="elementwise_mul_1.tmp_0" />
+		<IR name="Mul@4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@15/mean/Fused_Mul__copy" output_port_id="conv6_linear_weights" />
+		<IR name="BatchNormalization@15/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@15/variance/Fused_Add_" output_port_id="batch_norm_15.tmp_3" />
+		<IR name="BatchNormalization@15/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@8" output_port_id="elementwise_add_2.tmp_0" />
+		<IR name="Add@8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@16/mean/Fused_Mul__copy" output_port_id="conv7_expand_weights" />
+		<IR name="BatchNormalization@16/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@16/variance/Fused_Add_" output_port_id="batch_norm_16.tmp_3" />
+		<IR name="BatchNormalization@16/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@12" output_port_id="relu_10.tmp_0" />
+		<IR name="Relu@12" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@17/mean/Fused_Mul__copy" output_port_id="conv7_depthwise_weights" />
+		<IR name="BatchNormalization@17/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@17/variance/Fused_Add_" output_port_id="batch_norm_17.tmp_3" />
+		<IR name="BatchNormalization@17/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@13" output_port_id="relu_11.tmp_0" />
+		<IR name="Relu@13" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="GlobalAveragePool@2/reduce" output_port_id="pool2d_2.tmp_0" />
+		<IR name="GlobalAveragePool@2/reduce" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv7_se_1_weights" output_port_id="conv7_se_1_weights" />
+		<IR name="conv7_se_1_weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@22" output_port_id="conv2d_16.tmp_0" />
+		<IR name="Conv@22" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Reshape@4" output_port_id="Reshape@4" />
+		<IR name="Reshape@4" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add@9" output_port_id="conv2d_16.tmp_1" />
+		<IR name="Add@9" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@14" output_port_id="conv2d_16.tmp_2" />
+		<IR name="Relu@14" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv7_se_2_weights" output_port_id="conv7_se_2_weights" />
+		<IR name="conv7_se_2_weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@23" output_port_id="conv2d_17.tmp_0" />
+		<IR name="Conv@23" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Reshape@5" output_port_id="Reshape@5" />
+		<IR name="Reshape@5" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add@10" output_port_id="conv2d_17.tmp_1" />
+		<IR name="Add@10" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="HardSigmoid@2/HardSigmoid_" output_port_id="conv2d_17.tmp_2" />
+		<IR name="HardSigmoid@2/HardSigmoid_" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Mul@5" output_port_id="elementwise_mul_2.tmp_0" />
+		<IR name="Mul@5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@18/mean/Fused_Mul__copy" output_port_id="conv7_linear_weights" />
+		<IR name="BatchNormalization@18/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@18/variance/Fused_Add_" output_port_id="batch_norm_18.tmp_3" />
+		<IR name="BatchNormalization@18/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@11" output_port_id="elementwise_add_3.tmp_0" />
+		<IR name="Add@11" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@19/mean/Fused_Mul__copy" output_port_id="conv8_expand_weights" />
+		<IR name="BatchNormalization@19/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@19/variance/Fused_Add_" output_port_id="batch_norm_19.tmp_3" />
+		<IR name="BatchNormalization@19/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@19/variance/Fused_Add_" output_port_id="Cast@2" />
+		<IR name="BatchNormalization@19/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@13" output_port_id="Constant@13" />
+		<IR name="Constant@13" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@12" output_port_id="Constant@12" />
+		<IR name="Constant@12" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@6" output_port_id="Mul@6" />
+		<IR name="Mul@6" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@12" output_port_id="tmp_3" />
+		<IR name="Add@12" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@1" output_port_id="relu6_1.tmp_0" />
+		<IR name="Clip@1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@7" output_port_id="Cast@3" />
+		<IR name="Mul@7" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@7" output_port_id="tmp_4" />
+		<IR name="Mul@7" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@8" output_port_id="Mul@8" />
+		<IR name="Mul@8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@13" output_port_id="tmp_5" />
+		<IR name="Add@13" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@20/mean/Fused_Mul__copy" output_port_id="conv8_depthwise_weights" />
+		<IR name="BatchNormalization@20/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@20/variance/Fused_Add_" output_port_id="Cast@4" />
+		<IR name="BatchNormalization@20/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@20/variance/Fused_Add_" output_port_id="batch_norm_20.tmp_3" />
+		<IR name="BatchNormalization@20/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@19" output_port_id="Constant@19" />
+		<IR name="Constant@19" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@18" output_port_id="Constant@18" />
+		<IR name="Constant@18" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@9" output_port_id="Mul@9" />
+		<IR name="Mul@9" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@14" output_port_id="tmp_6" />
+		<IR name="Add@14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@2" output_port_id="relu6_2.tmp_0" />
+		<IR name="Clip@2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@10" output_port_id="Cast@5" />
+		<IR name="Mul@10" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@10" output_port_id="tmp_7" />
+		<IR name="Mul@10" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@11" output_port_id="Mul@11" />
+		<IR name="Mul@11" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@15" output_port_id="tmp_8" />
+		<IR name="Add@15" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@21/mean/Fused_Mul__copy" output_port_id="conv8_linear_weights" />
+		<IR name="BatchNormalization@21/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@21/variance/Fused_Add_" output_port_id="batch_norm_21.tmp_3" />
+		<IR name="BatchNormalization@21/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@35" output_port_id="Constant@35" />
+		<IR name="Constant@35" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@34" output_port_id="Constant@34" />
+		<IR name="Constant@34" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@29" output_port_id="Constant@29" />
+		<IR name="Constant@29" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@28" output_port_id="Constant@28" />
+		<IR name="Constant@28" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@22/mean/Fused_Mul__copy" output_port_id="conv9_expand_weights" />
+		<IR name="BatchNormalization@22/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@22/variance/Fused_Add_" output_port_id="Cast@6" />
+		<IR name="BatchNormalization@22/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@22/variance/Fused_Add_" output_port_id="batch_norm_22.tmp_3" />
+		<IR name="BatchNormalization@22/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@25" output_port_id="Constant@25" />
+		<IR name="Constant@25" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@24" output_port_id="Constant@24" />
+		<IR name="Constant@24" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@12" output_port_id="Mul@12" />
+		<IR name="Mul@12" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@16" output_port_id="tmp_9" />
+		<IR name="Add@16" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@3" output_port_id="relu6_3.tmp_0" />
+		<IR name="Clip@3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@13" output_port_id="Cast@7" />
+		<IR name="Mul@13" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@13" output_port_id="tmp_10" />
+		<IR name="Mul@13" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@14" output_port_id="Mul@14" />
+		<IR name="Mul@14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@17" output_port_id="tmp_11" />
+		<IR name="Add@17" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@23/mean/Fused_Mul__copy" output_port_id="conv9_depthwise_weights" />
+		<IR name="BatchNormalization@23/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@23/variance/Fused_Add_" output_port_id="Cast@8" />
+		<IR name="BatchNormalization@23/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@23/variance/Fused_Add_" output_port_id="batch_norm_23.tmp_3" />
+		<IR name="BatchNormalization@23/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@31" output_port_id="Constant@31" />
+		<IR name="Constant@31" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@30" output_port_id="Constant@30" />
+		<IR name="Constant@30" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@15" output_port_id="Mul@15" />
+		<IR name="Mul@15" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@18" output_port_id="tmp_12" />
+		<IR name="Add@18" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@4" output_port_id="relu6_4.tmp_0" />
+		<IR name="Clip@4" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@16" output_port_id="Cast@9" />
+		<IR name="Mul@16" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@16" output_port_id="tmp_13" />
+		<IR name="Mul@16" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@17" output_port_id="Mul@17" />
+		<IR name="Mul@17" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@19" output_port_id="tmp_14" />
+		<IR name="Add@19" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@24/mean/Fused_Mul__copy" output_port_id="conv9_linear_weights" />
+		<IR name="BatchNormalization@24/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@24/variance/Fused_Add_" output_port_id="batch_norm_24.tmp_3" />
+		<IR name="BatchNormalization@24/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@20" output_port_id="elementwise_add_4.tmp_0" />
+		<IR name="Add@20" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@47" output_port_id="Constant@47" />
+		<IR name="Constant@47" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@46" output_port_id="Constant@46" />
+		<IR name="Constant@46" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@41" output_port_id="Constant@41" />
+		<IR name="Constant@41" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@40" output_port_id="Constant@40" />
+		<IR name="Constant@40" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@25/mean/Fused_Mul__copy" output_port_id="conv10_expand_weights" />
+		<IR name="BatchNormalization@25/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@25/variance/Fused_Add_" output_port_id="batch_norm_25.tmp_3" />
+		<IR name="BatchNormalization@25/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@25/variance/Fused_Add_" output_port_id="Cast@10" />
+		<IR name="BatchNormalization@25/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@37" output_port_id="Constant@37" />
+		<IR name="Constant@37" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@36" output_port_id="Constant@36" />
+		<IR name="Constant@36" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@18" output_port_id="Mul@18" />
+		<IR name="Mul@18" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@21" output_port_id="tmp_15" />
+		<IR name="Add@21" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@5" output_port_id="relu6_5.tmp_0" />
+		<IR name="Clip@5" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@19" output_port_id="tmp_16" />
+		<IR name="Mul@19" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@19" output_port_id="Cast@11" />
+		<IR name="Mul@19" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@20" output_port_id="Mul@20" />
+		<IR name="Mul@20" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@22" output_port_id="tmp_17" />
+		<IR name="Add@22" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@26/mean/Fused_Mul__copy" output_port_id="conv10_depthwise_weights" />
+		<IR name="BatchNormalization@26/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@26/variance/Fused_Add_" output_port_id="Cast@12" />
+		<IR name="BatchNormalization@26/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@26/variance/Fused_Add_" output_port_id="batch_norm_26.tmp_3" />
+		<IR name="BatchNormalization@26/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@43" output_port_id="Constant@43" />
+		<IR name="Constant@43" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@42" output_port_id="Constant@42" />
+		<IR name="Constant@42" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@21" output_port_id="Mul@21" />
+		<IR name="Mul@21" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@23" output_port_id="tmp_18" />
+		<IR name="Add@23" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@6" output_port_id="relu6_6.tmp_0" />
+		<IR name="Clip@6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@22" output_port_id="Cast@13" />
+		<IR name="Mul@22" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@22" output_port_id="tmp_19" />
+		<IR name="Mul@22" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@23" output_port_id="Mul@23" />
+		<IR name="Mul@23" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@24" output_port_id="tmp_20" />
+		<IR name="Add@24" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@27/mean/Fused_Mul__copy" output_port_id="conv10_linear_weights" />
+		<IR name="BatchNormalization@27/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@27/variance/Fused_Add_" output_port_id="batch_norm_27.tmp_3" />
+		<IR name="BatchNormalization@27/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@25" output_port_id="elementwise_add_5.tmp_0" />
+		<IR name="Add@25" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@59" output_port_id="Constant@59" />
+		<IR name="Constant@59" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@58" output_port_id="Constant@58" />
+		<IR name="Constant@58" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@53" output_port_id="Constant@53" />
+		<IR name="Constant@53" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@52" output_port_id="Constant@52" />
+		<IR name="Constant@52" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@28/mean/Fused_Mul__copy" output_port_id="conv11_expand_weights" />
+		<IR name="BatchNormalization@28/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@28/variance/Fused_Add_" output_port_id="Cast@14" />
+		<IR name="BatchNormalization@28/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@28/variance/Fused_Add_" output_port_id="batch_norm_28.tmp_3" />
+		<IR name="BatchNormalization@28/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@49" output_port_id="Constant@49" />
+		<IR name="Constant@49" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@48" output_port_id="Constant@48" />
+		<IR name="Constant@48" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@24" output_port_id="Mul@24" />
+		<IR name="Mul@24" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@26" output_port_id="tmp_21" />
+		<IR name="Add@26" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@7" output_port_id="relu6_7.tmp_0" />
+		<IR name="Clip@7" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@25" output_port_id="Cast@15" />
+		<IR name="Mul@25" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@25" output_port_id="tmp_22" />
+		<IR name="Mul@25" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@26" output_port_id="Mul@26" />
+		<IR name="Mul@26" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@27" output_port_id="tmp_23" />
+		<IR name="Add@27" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@29/mean/Fused_Mul__copy" output_port_id="conv11_depthwise_weights" />
+		<IR name="BatchNormalization@29/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@29/variance/Fused_Add_" output_port_id="Cast@16" />
+		<IR name="BatchNormalization@29/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@29/variance/Fused_Add_" output_port_id="batch_norm_29.tmp_3" />
+		<IR name="BatchNormalization@29/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@55" output_port_id="Constant@55" />
+		<IR name="Constant@55" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@54" output_port_id="Constant@54" />
+		<IR name="Constant@54" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@27" output_port_id="Mul@27" />
+		<IR name="Mul@27" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@28" output_port_id="tmp_24" />
+		<IR name="Add@28" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@8" output_port_id="relu6_8.tmp_0" />
+		<IR name="Clip@8" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@28" output_port_id="tmp_25" />
+		<IR name="Mul@28" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@28" output_port_id="Cast@17" />
+		<IR name="Mul@28" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@29" output_port_id="Mul@29" />
+		<IR name="Mul@29" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@29" output_port_id="tmp_26" />
+		<IR name="Add@29" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@30/mean/Fused_Mul__copy" output_port_id="conv11_linear_weights" />
+		<IR name="BatchNormalization@30/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@30/variance/Fused_Add_" output_port_id="batch_norm_30.tmp_3" />
+		<IR name="BatchNormalization@30/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@30" output_port_id="elementwise_add_6.tmp_0" />
+		<IR name="Add@30" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@31/mean/Fused_Mul__copy" output_port_id="conv12_expand_weights" />
+		<IR name="BatchNormalization@31/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@31/variance/Fused_Add_" output_port_id="Cast@18" />
+		<IR name="BatchNormalization@31/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@31/variance/Fused_Add_" output_port_id="batch_norm_31.tmp_3" />
+		<IR name="BatchNormalization@31/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@61" output_port_id="Constant@61" />
+		<IR name="Constant@61" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@60" output_port_id="Constant@60" />
+		<IR name="Constant@60" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@30" output_port_id="Mul@30" />
+		<IR name="Mul@30" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@31" output_port_id="tmp_27" />
+		<IR name="Add@31" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@9" output_port_id="relu6_9.tmp_0" />
+		<IR name="Clip@9" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@31" output_port_id="Cast@19" />
+		<IR name="Mul@31" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@31" output_port_id="tmp_28" />
+		<IR name="Mul@31" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@32" output_port_id="Mul@32" />
+		<IR name="Mul@32" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@32" output_port_id="tmp_29" />
+		<IR name="Add@32" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@32/mean/Fused_Mul__copy" output_port_id="conv12_depthwise_weights" />
+		<IR name="BatchNormalization@32/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@32/variance/Fused_Add_" output_port_id="Cast@20" />
+		<IR name="BatchNormalization@32/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@32/variance/Fused_Add_" output_port_id="batch_norm_32.tmp_3" />
+		<IR name="BatchNormalization@32/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@67" output_port_id="Constant@67" />
+		<IR name="Constant@67" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@66" output_port_id="Constant@66" />
+		<IR name="Constant@66" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@33" output_port_id="Mul@33" />
+		<IR name="Mul@33" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@33" output_port_id="tmp_30" />
+		<IR name="Add@33" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@10" output_port_id="relu6_10.tmp_0" />
+		<IR name="Clip@10" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@34" output_port_id="tmp_31" />
+		<IR name="Mul@34" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@34" output_port_id="Cast@21" />
+		<IR name="Mul@34" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@35" output_port_id="Mul@35" />
+		<IR name="Mul@35" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@34" output_port_id="tmp_32" />
+		<IR name="Add@34" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="GlobalAveragePool@3/reduce" output_port_id="pool2d_3.tmp_0" />
+		<IR name="GlobalAveragePool@3/reduce" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv12_se_1_weights" output_port_id="conv12_se_1_weights" />
+		<IR name="conv12_se_1_weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@39" output_port_id="conv2d_28.tmp_0" />
+		<IR name="Conv@39" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Reshape@6" output_port_id="Reshape@6" />
+		<IR name="Reshape@6" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add@35" output_port_id="conv2d_28.tmp_1" />
+		<IR name="Add@35" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@15" output_port_id="conv2d_28.tmp_2" />
+		<IR name="Relu@15" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv12_se_2_weights" output_port_id="conv12_se_2_weights" />
+		<IR name="conv12_se_2_weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@40" output_port_id="conv2d_29.tmp_0" />
+		<IR name="Conv@40" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Reshape@7" output_port_id="Reshape@7" />
+		<IR name="Reshape@7" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add@36" output_port_id="conv2d_29.tmp_1" />
+		<IR name="Add@36" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="HardSigmoid@3/HardSigmoid_" output_port_id="conv2d_29.tmp_2" />
+		<IR name="HardSigmoid@3/HardSigmoid_" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Mul@36" output_port_id="elementwise_mul_3.tmp_0" />
+		<IR name="Mul@36" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@33/mean/Fused_Mul__copy" output_port_id="conv12_linear_weights" />
+		<IR name="BatchNormalization@33/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@33/variance/Fused_Add_" output_port_id="batch_norm_33.tmp_3" />
+		<IR name="BatchNormalization@33/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@85" output_port_id="Constant@85" />
+		<IR name="Constant@85" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@84" output_port_id="Constant@84" />
+		<IR name="Constant@84" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@79" output_port_id="Constant@79" />
+		<IR name="Constant@79" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@78" output_port_id="Constant@78" />
+		<IR name="Constant@78" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@34/mean/Fused_Mul__copy" output_port_id="conv13_expand_weights" />
+		<IR name="BatchNormalization@34/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@34/variance/Fused_Add_" output_port_id="Cast@22" />
+		<IR name="BatchNormalization@34/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@34/variance/Fused_Add_" output_port_id="batch_norm_34.tmp_3" />
+		<IR name="BatchNormalization@34/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@75" output_port_id="Constant@75" />
+		<IR name="Constant@75" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@74" output_port_id="Constant@74" />
+		<IR name="Constant@74" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@37" output_port_id="Mul@37" />
+		<IR name="Mul@37" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@37" output_port_id="tmp_33" />
+		<IR name="Add@37" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@11" output_port_id="relu6_11.tmp_0" />
+		<IR name="Clip@11" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@38" output_port_id="Cast@23" />
+		<IR name="Mul@38" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@38" output_port_id="tmp_34" />
+		<IR name="Mul@38" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@39" output_port_id="Mul@39" />
+		<IR name="Mul@39" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@38" output_port_id="tmp_35" />
+		<IR name="Add@38" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@35/mean/Fused_Mul__copy" output_port_id="conv13_depthwise_weights" />
+		<IR name="BatchNormalization@35/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@35/variance/Fused_Add_" output_port_id="Cast@24" />
+		<IR name="BatchNormalization@35/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@35/variance/Fused_Add_" output_port_id="batch_norm_35.tmp_3" />
+		<IR name="BatchNormalization@35/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@81" output_port_id="Constant@81" />
+		<IR name="Constant@81" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@80" output_port_id="Constant@80" />
+		<IR name="Constant@80" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@40" output_port_id="Mul@40" />
+		<IR name="Mul@40" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@39" output_port_id="tmp_36" />
+		<IR name="Add@39" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@12" output_port_id="relu6_12.tmp_0" />
+		<IR name="Clip@12" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@41" output_port_id="Cast@25" />
+		<IR name="Mul@41" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@41" output_port_id="tmp_37" />
+		<IR name="Mul@41" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@42" output_port_id="Mul@42" />
+		<IR name="Mul@42" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@40" output_port_id="tmp_38" />
+		<IR name="Add@40" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="GlobalAveragePool@4/reduce" output_port_id="pool2d_4.tmp_0" />
+		<IR name="GlobalAveragePool@4/reduce" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv13_se_1_weights" output_port_id="conv13_se_1_weights" />
+		<IR name="conv13_se_1_weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@44" output_port_id="conv2d_32.tmp_0" />
+		<IR name="Conv@44" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Reshape@8" output_port_id="Reshape@8" />
+		<IR name="Reshape@8" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add@41" output_port_id="conv2d_32.tmp_1" />
+		<IR name="Add@41" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@16" output_port_id="conv2d_32.tmp_2" />
+		<IR name="Relu@16" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv13_se_2_weights" output_port_id="conv13_se_2_weights" />
+		<IR name="conv13_se_2_weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@45" output_port_id="conv2d_33.tmp_0" />
+		<IR name="Conv@45" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Reshape@9" output_port_id="Reshape@9" />
+		<IR name="Reshape@9" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add@42" output_port_id="conv2d_33.tmp_1" />
+		<IR name="Add@42" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="HardSigmoid@4/HardSigmoid_" output_port_id="conv2d_33.tmp_2" />
+		<IR name="HardSigmoid@4/HardSigmoid_" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Mul@43" output_port_id="elementwise_mul_4.tmp_0" />
+		<IR name="Mul@43" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@36/mean/Fused_Mul__copy" output_port_id="conv13_linear_weights" />
+		<IR name="BatchNormalization@36/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@36/variance/Fused_Add_" output_port_id="batch_norm_36.tmp_3" />
+		<IR name="BatchNormalization@36/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@43" output_port_id="elementwise_add_7.tmp_0" />
+		<IR name="Add@43" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@37/mean/Fused_Mul__copy" output_port_id="conv14_expand_weights" />
+		<IR name="BatchNormalization@37/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@37/variance/Fused_Add_" output_port_id="Cast@26" />
+		<IR name="BatchNormalization@37/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@37/variance/Fused_Add_" output_port_id="batch_norm_37.tmp_3" />
+		<IR name="BatchNormalization@37/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@89" output_port_id="Constant@89" />
+		<IR name="Constant@89" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@88" output_port_id="Constant@88" />
+		<IR name="Constant@88" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@44" output_port_id="Mul@44" />
+		<IR name="Mul@44" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@44" output_port_id="tmp_39" />
+		<IR name="Add@44" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@13" output_port_id="relu6_13.tmp_0" />
+		<IR name="Clip@13" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@45" output_port_id="Cast@27" />
+		<IR name="Mul@45" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@45" output_port_id="tmp_40" />
+		<IR name="Mul@45" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@46" output_port_id="Mul@46" />
+		<IR name="Mul@46" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@45" output_port_id="tmp_41" />
+		<IR name="Add@45" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@38/mean/Fused_Mul__copy" output_port_id="conv14_depthwise_weights" />
+		<IR name="BatchNormalization@38/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@38/variance/Fused_Add_" output_port_id="Cast@28" />
+		<IR name="BatchNormalization@38/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@38/variance/Fused_Add_" output_port_id="batch_norm_38.tmp_3" />
+		<IR name="BatchNormalization@38/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@95" output_port_id="Constant@95" />
+		<IR name="Constant@95" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@94" output_port_id="Constant@94" />
+		<IR name="Constant@94" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@47" output_port_id="Mul@47" />
+		<IR name="Mul@47" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@46" output_port_id="tmp_42" />
+		<IR name="Add@46" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@14" output_port_id="relu6_14.tmp_0" />
+		<IR name="Clip@14" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@48" output_port_id="Cast@29" />
+		<IR name="Mul@48" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@48" output_port_id="tmp_43" />
+		<IR name="Mul@48" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@49" output_port_id="Mul@49" />
+		<IR name="Mul@49" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@47" output_port_id="tmp_44" />
+		<IR name="Add@47" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="GlobalAveragePool@5/reduce" output_port_id="pool2d_5.tmp_0" />
+		<IR name="GlobalAveragePool@5/reduce" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv14_se_1_weights" output_port_id="conv14_se_1_weights" />
+		<IR name="conv14_se_1_weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@49" output_port_id="conv2d_36.tmp_0" />
+		<IR name="Conv@49" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Reshape@10" output_port_id="Reshape@10" />
+		<IR name="Reshape@10" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add@48" output_port_id="conv2d_36.tmp_1" />
+		<IR name="Add@48" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@17" output_port_id="conv2d_36.tmp_2" />
+		<IR name="Relu@17" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv14_se_2_weights" output_port_id="conv14_se_2_weights" />
+		<IR name="conv14_se_2_weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@50" output_port_id="conv2d_37.tmp_0" />
+		<IR name="Conv@50" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Reshape@11" output_port_id="Reshape@11" />
+		<IR name="Reshape@11" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add@49" output_port_id="conv2d_37.tmp_1" />
+		<IR name="Add@49" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="HardSigmoid@5/HardSigmoid_" output_port_id="conv2d_37.tmp_2" />
+		<IR name="HardSigmoid@5/HardSigmoid_" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Mul@50" output_port_id="elementwise_mul_5.tmp_0" />
+		<IR name="Mul@50" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@39/mean/Fused_Mul__copy" output_port_id="conv14_linear_weights" />
+		<IR name="BatchNormalization@39/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@39/variance/Fused_Add_" output_port_id="batch_norm_39.tmp_3" />
+		<IR name="BatchNormalization@39/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@113" output_port_id="Constant@113" />
+		<IR name="Constant@113" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@112" output_port_id="Constant@112" />
+		<IR name="Constant@112" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@107" output_port_id="Constant@107" />
+		<IR name="Constant@107" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@106" output_port_id="Constant@106" />
+		<IR name="Constant@106" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@40/mean/Fused_Mul__copy" output_port_id="conv15_expand_weights" />
+		<IR name="BatchNormalization@40/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@40/variance/Fused_Add_" output_port_id="Cast@30" />
+		<IR name="BatchNormalization@40/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@40/variance/Fused_Add_" output_port_id="batch_norm_40.tmp_3" />
+		<IR name="BatchNormalization@40/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@103" output_port_id="Constant@103" />
+		<IR name="Constant@103" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@102" output_port_id="Constant@102" />
+		<IR name="Constant@102" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@51" output_port_id="Mul@51" />
+		<IR name="Mul@51" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@50" output_port_id="tmp_45" />
+		<IR name="Add@50" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@15" output_port_id="relu6_15.tmp_0" />
+		<IR name="Clip@15" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@52" output_port_id="Cast@31" />
+		<IR name="Mul@52" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@52" output_port_id="tmp_46" />
+		<IR name="Mul@52" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@53" output_port_id="Mul@53" />
+		<IR name="Mul@53" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@51" output_port_id="tmp_47" />
+		<IR name="Add@51" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@41/mean/Fused_Mul__copy" output_port_id="conv15_depthwise_weights" />
+		<IR name="BatchNormalization@41/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@41/variance/Fused_Add_" output_port_id="Cast@32" />
+		<IR name="BatchNormalization@41/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@41/variance/Fused_Add_" output_port_id="batch_norm_41.tmp_3" />
+		<IR name="BatchNormalization@41/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@109" output_port_id="Constant@109" />
+		<IR name="Constant@109" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@108" output_port_id="Constant@108" />
+		<IR name="Constant@108" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@54" output_port_id="Mul@54" />
+		<IR name="Mul@54" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@52" output_port_id="tmp_48" />
+		<IR name="Add@52" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@16" output_port_id="relu6_16.tmp_0" />
+		<IR name="Clip@16" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@55" output_port_id="Cast@33" />
+		<IR name="Mul@55" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@55" output_port_id="tmp_49" />
+		<IR name="Mul@55" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@56" output_port_id="Mul@56" />
+		<IR name="Mul@56" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@53" output_port_id="tmp_50" />
+		<IR name="Add@53" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="GlobalAveragePool@6/reduce" output_port_id="pool2d_6.tmp_0" />
+		<IR name="GlobalAveragePool@6/reduce" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv15_se_1_weights" output_port_id="conv15_se_1_weights" />
+		<IR name="conv15_se_1_weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@54" output_port_id="conv2d_40.tmp_0" />
+		<IR name="Conv@54" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Reshape@12" output_port_id="Reshape@12" />
+		<IR name="Reshape@12" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add@54" output_port_id="conv2d_40.tmp_1" />
+		<IR name="Add@54" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@18" output_port_id="conv2d_40.tmp_2" />
+		<IR name="Relu@18" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv15_se_2_weights" output_port_id="conv15_se_2_weights" />
+		<IR name="conv15_se_2_weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@55" output_port_id="conv2d_41.tmp_0" />
+		<IR name="Conv@55" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Reshape@13" output_port_id="Reshape@13" />
+		<IR name="Reshape@13" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add@55" output_port_id="conv2d_41.tmp_1" />
+		<IR name="Add@55" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="HardSigmoid@6/HardSigmoid_" output_port_id="conv2d_41.tmp_2" />
+		<IR name="HardSigmoid@6/HardSigmoid_" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Mul@57" output_port_id="elementwise_mul_6.tmp_0" />
+		<IR name="Mul@57" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@42/mean/Fused_Mul__copy" output_port_id="conv15_linear_weights" />
+		<IR name="BatchNormalization@42/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@42/variance/Fused_Add_" output_port_id="batch_norm_42.tmp_3" />
+		<IR name="BatchNormalization@42/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@56" output_port_id="elementwise_add_8.tmp_0" />
+		<IR name="Add@56" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@127" output_port_id="Constant@127" />
+		<IR name="Constant@127" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@126" output_port_id="Constant@126" />
+		<IR name="Constant@126" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@121" output_port_id="Constant@121" />
+		<IR name="Constant@121" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@120" output_port_id="Constant@120" />
+		<IR name="Constant@120" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@43/mean/Fused_Mul__copy" output_port_id="conv16_expand_weights" />
+		<IR name="BatchNormalization@43/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@43/variance/Fused_Add_" output_port_id="Cast@34" />
+		<IR name="BatchNormalization@43/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@43/variance/Fused_Add_" output_port_id="batch_norm_43.tmp_3" />
+		<IR name="BatchNormalization@43/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@117" output_port_id="Constant@117" />
+		<IR name="Constant@117" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@116" output_port_id="Constant@116" />
+		<IR name="Constant@116" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@58" output_port_id="Mul@58" />
+		<IR name="Mul@58" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@57" output_port_id="tmp_51" />
+		<IR name="Add@57" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@17" output_port_id="relu6_17.tmp_0" />
+		<IR name="Clip@17" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@59" output_port_id="Cast@35" />
+		<IR name="Mul@59" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@59" output_port_id="tmp_52" />
+		<IR name="Mul@59" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@60" output_port_id="Mul@60" />
+		<IR name="Mul@60" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@58" output_port_id="tmp_53" />
+		<IR name="Add@58" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@44/mean/Fused_Mul__copy" output_port_id="conv16_depthwise_weights" />
+		<IR name="BatchNormalization@44/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@44/variance/Fused_Add_" output_port_id="Cast@36" />
+		<IR name="BatchNormalization@44/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@44/variance/Fused_Add_" output_port_id="batch_norm_44.tmp_3" />
+		<IR name="BatchNormalization@44/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@123" output_port_id="Constant@123" />
+		<IR name="Constant@123" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@122" output_port_id="Constant@122" />
+		<IR name="Constant@122" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@61" output_port_id="Mul@61" />
+		<IR name="Mul@61" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@59" output_port_id="tmp_54" />
+		<IR name="Add@59" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@18" output_port_id="relu6_18.tmp_0" />
+		<IR name="Clip@18" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@62" output_port_id="Cast@37" />
+		<IR name="Mul@62" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@62" output_port_id="tmp_55" />
+		<IR name="Mul@62" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@63" output_port_id="Mul@63" />
+		<IR name="Mul@63" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@60" output_port_id="tmp_56" />
+		<IR name="Add@60" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="GlobalAveragePool@7/reduce" output_port_id="pool2d_7.tmp_0" />
+		<IR name="GlobalAveragePool@7/reduce" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="conv16_se_1_weights" output_port_id="conv16_se_1_weights" />
+		<IR name="conv16_se_1_weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@59" output_port_id="conv2d_44.tmp_0" />
+		<IR name="Conv@59" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Reshape@14" output_port_id="Reshape@14" />
+		<IR name="Reshape@14" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add@61" output_port_id="conv2d_44.tmp_1" />
+		<IR name="Add@61" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@19" output_port_id="conv2d_44.tmp_2" />
+		<IR name="Relu@19" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="conv16_se_2_weights" output_port_id="conv16_se_2_weights" />
+		<IR name="conv16_se_2_weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@60" output_port_id="conv2d_45.tmp_0" />
+		<IR name="Conv@60" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Reshape@15" output_port_id="Reshape@15" />
+		<IR name="Reshape@15" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add@62" output_port_id="conv2d_45.tmp_1" />
+		<IR name="Add@62" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="HardSigmoid@7/HardSigmoid_" output_port_id="conv2d_45.tmp_2" />
+		<IR name="HardSigmoid@7/HardSigmoid_" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Mul@64" output_port_id="elementwise_mul_7.tmp_0" />
+		<IR name="Mul@64" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@45/mean/Fused_Mul__copy" output_port_id="conv16_linear_weights" />
+		<IR name="BatchNormalization@45/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@45/variance/Fused_Add_" output_port_id="batch_norm_45.tmp_3" />
+		<IR name="BatchNormalization@45/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@63" output_port_id="elementwise_add_9.tmp_0" />
+		<IR name="Add@63" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@46/mean/Fused_Mul__copy" output_port_id="conv_last_weights" />
+		<IR name="BatchNormalization@46/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@46/variance/Fused_Add_" output_port_id="Cast@38" />
+		<IR name="BatchNormalization@46/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@46/variance/Fused_Add_" output_port_id="batch_norm_46.tmp_3" />
+		<IR name="BatchNormalization@46/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant@131" output_port_id="Constant@131" />
+		<IR name="Constant@131" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@130" output_port_id="Constant@130" />
+		<IR name="Constant@130" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul@65" output_port_id="Mul@65" />
+		<IR name="Mul@65" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@64" output_port_id="tmp_57" />
+		<IR name="Add@64" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@19" output_port_id="relu6_19.tmp_0" />
+		<IR name="Clip@19" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@66" output_port_id="tmp_58" />
+		<IR name="Mul@66" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@66" output_port_id="Cast@39" />
+		<IR name="Mul@66" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@67" output_port_id="Mul@67" />
+		<IR name="Mul@67" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@65" output_port_id="tmp_59" />
+		<IR name="Add@65" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@47/mean/Fused_Mul__copy" output_port_id="encoder/aspp0/weights" />
+		<IR name="BatchNormalization@47/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization@47/variance/Fused_Add_" output_port_id="batch_norm_47.tmp_3" />
+		<IR name="BatchNormalization@47/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu@20" output_port_id="concat_0.tmp_0" />
+		<IR name="Relu@20" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Relu@20" output_port_id="relu_12.tmp_0" />
+		<IR name="Relu@20" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Constant@141" output_port_id="Constant@141" />
+		<IR name="Constant@141" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@140" output_port_id="Constant@140" />
+		<IR name="Constant@140" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@137" output_port_id="Constant@137" />
+		<IR name="Constant@137" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Constant@136" output_port_id="Constant@136" />
+		<IR name="Constant@136" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="ReduceMean@0" output_port_id="mean_0.tmp_0" />
+		<IR name="ReduceMean@0" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="encoder/image_pool/weights" output_port_id="encoder/image_pool/weights" />
+		<IR name="encoder/image_pool/weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@63" output_port_id="conv2d_48.tmp_0" />
+		<IR name="Conv@63" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Conv@63" output_port_id="Cast@40" />
+		<IR name="Conv@63" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul@68" output_port_id="Mul@68" />
+		<IR name="Mul@68" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@66" output_port_id="tmp_60" />
+		<IR name="Add@66" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Clip@20" output_port_id="Cast@41" />
+		<IR name="Clip@20" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Clip@20" output_port_id="relu6_20.tmp_0" />
+		<IR name="Clip@20" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul@69" output_port_id="Mul@69" />
+		<IR name="Mul@69" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@67" output_port_id="tmp_61" />
+		<IR name="Add@67" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Shape@1" output_port_id="Shape@1" />
+		<IR name="Shape@1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Slice@1" output_port_id="Slice@1" />
+		<IR name="Slice@1" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Shape@0" output_port_id="shape_0.tmp_0" />
+		<IR name="Shape@0" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Slice@0" output_port_id="Cast@42" />
+		<IR name="Slice@0" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Slice@0" output_port_id="shape_0.tmp_0_slice_0" />
+		<IR name="Slice@0" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Concat@0" output_port_id="Concat@0" />
+		<IR name="Concat@0" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Resize@0" output_port_id="bilinear_interp_0.tmp_0" />
+		<IR name="Resize@0" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Mul@70" output_port_id="tmp_62" />
+		<IR name="Mul@70" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Shape@3" output_port_id="Shape@3" />
+		<IR name="Shape@3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Slice@3" output_port_id="Slice@3" />
+		<IR name="Slice@3" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Shape@2" output_port_id="shape_1.tmp_0" />
+		<IR name="Shape@2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Slice@2" output_port_id="Cast@43" />
+		<IR name="Slice@2" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Slice@2" output_port_id="shape_1.tmp_0_slice_0" />
+		<IR name="Slice@2" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Concat@2" output_port_id="Concat@2" />
+		<IR name="Concat@2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Resize@1" output_port_id="bilinear_interp_1.tmp_0" />
+		<IR name="Resize@1" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="decoder/weights" output_port_id="decoder/weights" />
+		<IR name="decoder/weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@65" output_port_id="conv2d_50.tmp_0" />
+		<IR name="Conv@65" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="decoder/merge/weights" output_port_id="decoder/merge/weights" />
+		<IR name="decoder/merge/weights" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv@66" output_port_id="conv2d_51.tmp_0" />
+		<IR name="Conv@66" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add@68" output_port_id="tmp_63" />
+		<IR name="Add@68" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Shape@5" output_port_id="Shape@5" />
+		<IR name="Shape@5" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Slice@5" output_port_id="Slice@5" />
+		<IR name="Slice@5" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Shape@4" output_port_id="shape_2.tmp_0" />
+		<IR name="Shape@4" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Slice@4" output_port_id="Cast@44" />
+		<IR name="Slice@4" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Slice@4" output_port_id="shape_2.tmp_0_slice_0" />
+		<IR name="Slice@4" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Concat@3" output_port_id="Concat@3" />
+		<IR name="Concat@3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Resize@2" output_port_id="bilinear_interp_2.tmp_0" />
+		<IR name="Resize@2" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Transpose@0" output_port_id="transpose_0.tmp_0" />
+		<IR name="Transpose@0" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="ArgMax@0/Squeeze" output_port_id="arg_max_0.tmp_0" />
+		<IR name="ArgMax@0/Squeeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="unsqueeze2_0.tmp_0" output_port_id="unsqueeze2_0.tmp_0" />
+		<IR name="unsqueeze2_0.tmp_0" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Transpose@1" output_port_id="Transpose@1" />
+		<IR name="Transpose@1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Softmax@0" output_port_id="Softmax@0" />
+		<IR name="Softmax@0" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="softmax_0.tmp_0" output_port_id="softmax_0.tmp_0" />
+		<IR name="softmax_0.tmp_0" output_port_id="2" />
+	</map>
+</mapping>

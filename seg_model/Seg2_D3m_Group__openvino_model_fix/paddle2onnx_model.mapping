@@ -1,0 +1,2027 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="Slice@4" out_port_id="0"/>
+		<IR name="Slice@4" out_port_id="4" id="666"/>
+	</map>
+	<map>
+		<framework name="Cast@44" out_port_id="0"/>
+		<IR name="Slice@4" out_port_id="4" id="666"/>
+	</map>
+	<map>
+		<framework name="conv11_expand_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@28/mean/Fused_Mul_1688816890_const" out_port_id="0" id="278"/>
+	</map>
+	<map>
+		<framework name="Add@36" out_port_id="0"/>
+		<IR name="Add@36" out_port_id="2" id="347"/>
+	</map>
+	<map>
+		<framework name="Add@47" out_port_id="0"/>
+		<IR name="Add@47" out_port_id="2" id="433"/>
+	</map>
+	<map>
+		<framework name="encoder/aspp0/weights" out_port_id="0"/>
+		<IR name="BatchNormalization@47/mean/Fused_Mul_1696416966_const" out_port_id="0" id="579"/>
+	</map>
+	<map>
+		<framework name="Reshape@1" out_port_id="0"/>
+		<IR name="Reshape@1/Output_0/Data__const" out_port_id="0" id="98"/>
+	</map>
+	<map>
+		<framework name="Relu@20" out_port_id="0"/>
+		<IR name="Relu@20" out_port_id="1" id="583"/>
+	</map>
+	<map>
+		<framework name="Concat@1" out_port_id="0"/>
+		<IR name="Relu@20" out_port_id="1" id="583"/>
+	</map>
+	<map>
+		<framework name="Relu@2" out_port_id="0"/>
+		<IR name="Relu@2" out_port_id="1" id="48"/>
+	</map>
+	<map>
+		<framework name="Constant@94" out_port_id="0"/>
+		<IR name="Constant@94/EltwiseUnsqueeze15884_const" out_port_id="0" id="427"/>
+	</map>
+	<map>
+		<framework name="Mul@0" out_port_id="0"/>
+		<IR name="Mul@0" out_port_id="2" id="23"/>
+	</map>
+	<map>
+		<framework name="conv16_se_1_weights" out_port_id="0"/>
+		<IR name="conv16_se_1_weights/Output_0/Data__const" out_port_id="0" id="549"/>
+	</map>
+	<map>
+		<framework name="Mul@27" out_port_id="0"/>
+		<IR name="Mul@27" out_port_id="2" id="296"/>
+	</map>
+	<map>
+		<framework name="Constant@55" out_port_id="0"/>
+		<IR name="Constant@55/EltwiseUnsqueeze15792_const" out_port_id="0" id="294"/>
+	</map>
+	<map>
+		<framework name="Clip@17" out_port_id="0"/>
+		<IR name="Clip@17" out_port_id="1" id="525"/>
+	</map>
+	<map>
+		<framework name="conv9_depthwise_weights" out_port_id="0"/>
+		<IR name="2977529778_const" out_port_id="0" id="224"/>
+	</map>
+	<map>
+		<framework name="Clip@20" out_port_id="0"/>
+		<IR name="Clip@20" out_port_id="1" id="594"/>
+	</map>
+	<map>
+		<framework name="Cast@41" out_port_id="0"/>
+		<IR name="Clip@20" out_port_id="1" id="594"/>
+	</map>
+	<map>
+		<framework name="conv8_linear_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@21/mean/Fused_Mul_1686016862_const" out_port_id="0" id="204"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@21" out_port_id="0"/>
+		<IR name="BatchNormalization@21/variance/Fused_Add_" out_port_id="2" id="207"/>
+	</map>
+	<map>
+		<framework name="Conv@59" out_port_id="0"/>
+		<IR name="Conv@59" out_port_id="2" id="550"/>
+	</map>
+	<map>
+		<framework name="Mul@57" out_port_id="0"/>
+		<IR name="Mul@57" out_port_id="2" id="507"/>
+	</map>
+	<map>
+		<framework name="Constant@24" out_port_id="0"/>
+		<IR name="Constant@24/EltwiseUnsqueeze15708_const" out_port_id="0" id="217"/>
+	</map>
+	<map>
+		<framework name="Add@20" out_port_id="0"/>
+		<IR name="Add@20" out_port_id="2" id="240"/>
+	</map>
+	<map>
+		<framework name="Mul@10" out_port_id="0"/>
+		<IR name="Mul@10" out_port_id="2" id="201"/>
+	</map>
+	<map>
+		<framework name="Cast@5" out_port_id="0"/>
+		<IR name="Mul@10" out_port_id="2" id="201"/>
+	</map>
+	<map>
+		<framework name="Constant@37" out_port_id="0"/>
+		<IR name="Constant@37/EltwiseUnsqueeze15744_const" out_port_id="0" id="249"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@4" out_port_id="0"/>
+		<IR name="BatchNormalization@4/variance/Fused_Add_" out_port_id="2" id="47"/>
+	</map>
+	<map>
+		<framework name="GlobalAveragePool@7" out_port_id="0"/>
+		<IR name="GlobalAveragePool@7/reduce" out_port_id="2" id="548"/>
+	</map>
+	<map>
+		<framework name="Add@44" out_port_id="0"/>
+		<IR name="Add@44" out_port_id="2" id="417"/>
+	</map>
+	<map>
+		<framework name="Conv@63" out_port_id="0"/>
+		<IR name="Conv@63" out_port_id="2" id="591"/>
+	</map>
+	<map>
+		<framework name="Cast@40" out_port_id="0"/>
+		<IR name="Conv@63" out_port_id="2" id="591"/>
+	</map>
+	<map>
+		<framework name="Constant@60" out_port_id="0"/>
+		<IR name="Constant@60/EltwiseUnsqueeze15804_const" out_port_id="0" id="312"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@8" out_port_id="0"/>
+		<IR name="BatchNormalization@8/variance/Fused_Add_" out_port_id="2" id="66"/>
+	</map>
+	<map>
+		<framework name="Add@34" out_port_id="0"/>
+		<IR name="Add@34" out_port_id="2" id="330"/>
+	</map>
+	<map>
+		<framework name="Constant@106" out_port_id="0"/>
+		<IR name="Constant@106/EltwiseUnsqueeze15908_const" out_port_id="0" id="462"/>
+	</map>
+	<map>
+		<framework name="Mul@25" out_port_id="0"/>
+		<IR name="Mul@25" out_port_id="2" id="287"/>
+	</map>
+	<map>
+		<framework name="Cast@15" out_port_id="0"/>
+		<IR name="Mul@25" out_port_id="2" id="287"/>
+	</map>
+	<map>
+		<framework name="conv16_expand_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@43/mean/Fused_Mul_1694816950_const" out_port_id="0" id="517"/>
+	</map>
+	<map>
+		<framework name="conv10_expand_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@25/mean/Fused_Mul_1687616878_const" out_port_id="0" id="245"/>
+	</map>
+	<map>
+		<framework name="Constant@42" out_port_id="0"/>
+		<IR name="Constant@42/EltwiseUnsqueeze15756_const" out_port_id="0" id="262"/>
+	</map>
+	<map>
+		<framework name="Add@24" out_port_id="0"/>
+		<IR name="Add@24" out_port_id="2" id="268"/>
+	</map>
+	<map>
+		<framework name="HardSigmoid@1" out_port_id="0"/>
+		<IR name="HardSigmoid@1/HardSigmoid_" out_port_id="3" id="137"/>
+	</map>
+	<map>
+		<framework name="conv16_se_2_weights" out_port_id="0"/>
+		<IR name="conv16_se_2_weights/Output_0/Data__const" out_port_id="0" id="554"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@28" out_port_id="0"/>
+		<IR name="BatchNormalization@28/variance/Fused_Add_" out_port_id="2" id="281"/>
+	</map>
+	<map>
+		<framework name="Cast@14" out_port_id="0"/>
+		<IR name="BatchNormalization@28/variance/Fused_Add_" out_port_id="2" id="281"/>
+	</map>
+	<map>
+		<framework name="Conv@44" out_port_id="0"/>
+		<IR name="Conv@44" out_port_id="2" id="393"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@22" out_port_id="0"/>
+		<IR name="BatchNormalization@22/variance/Fused_Add_" out_port_id="2" id="215"/>
+	</map>
+	<map>
+		<framework name="Cast@6" out_port_id="0"/>
+		<IR name="BatchNormalization@22/variance/Fused_Add_" out_port_id="2" id="215"/>
+	</map>
+	<map>
+		<framework name="Clip@16" out_port_id="0"/>
+		<IR name="Clip@16" out_port_id="1" id="483"/>
+	</map>
+	<map>
+		<framework name="Reshape@14" out_port_id="0"/>
+		<IR name="Reshape@14/Output_0/Data__const" out_port_id="0" id="551"/>
+	</map>
+	<map>
+		<framework name="HardSigmoid@6" out_port_id="0"/>
+		<IR name="HardSigmoid@6/HardSigmoid_" out_port_id="3" id="506"/>
+	</map>
+	<map>
+		<framework name="Reshape@4" out_port_id="0"/>
+		<IR name="Reshape@4/Output_0/Data__const" out_port_id="0" id="164"/>
+	</map>
+	<map>
+		<framework name="Reshape@6" out_port_id="0"/>
+		<IR name="Reshape@6/Output_0/Data__const" out_port_id="0" id="341"/>
+	</map>
+	<map>
+		<framework name="conv6_se_2_weights" out_port_id="0"/>
+		<IR name="conv6_se_2_weights/Output_0/Data__const" out_port_id="0" id="131"/>
+	</map>
+	<map>
+		<framework name="Conv@40" out_port_id="0"/>
+		<IR name="Conv@40" out_port_id="2" id="345"/>
+	</map>
+	<map>
+		<framework name="Clip@5" out_port_id="0"/>
+		<IR name="Clip@5" out_port_id="1" id="253"/>
+	</map>
+	<map>
+		<framework name="conv3_linear_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@6/mean/Fused_Mul_1680016802_const" out_port_id="0" id="54"/>
+	</map>
+	<map>
+		<framework name="Mul@67" out_port_id="0"/>
+		<IR name="Mul@67" out_port_id="2" id="577"/>
+	</map>
+	<map>
+		<framework name="Constant@35" out_port_id="0"/>
+		<IR name="Constant@35/EltwiseUnsqueeze15736_const" out_port_id="0" id="208"/>
+	</map>
+	<map>
+		<framework name="Constant@78" out_port_id="0"/>
+		<IR name="Constant@78/EltwiseUnsqueeze15844_const" out_port_id="0" id="359"/>
+	</map>
+	<map>
+		<framework name="Add@25" out_port_id="0"/>
+		<IR name="Add@25" out_port_id="2" id="273"/>
+	</map>
+	<map>
+		<framework name="Reshape@2" out_port_id="0"/>
+		<IR name="Reshape@2/Output_0/Data__const" out_port_id="0" id="128"/>
+	</map>
+	<map>
+		<framework name="conv3_expand_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@4/mean/Fused_Mul_1679216794_const" out_port_id="0" id="44"/>
+	</map>
+	<map>
+		<framework name="Add@27" out_port_id="0"/>
+		<IR name="Add@27" out_port_id="2" id="289"/>
+	</map>
+	<map>
+		<framework name="Mul@35" out_port_id="0"/>
+		<IR name="Mul@35" out_port_id="2" id="329"/>
+	</map>
+	<map>
+		<framework name="Transpose@1" out_port_id="0"/>
+		<IR name="Transpose@1" out_port_id="2" id="694"/>
+	</map>
+	<map>
+		<framework name="Mul@19" out_port_id="0"/>
+		<IR name="Mul@19" out_port_id="2" id="254"/>
+	</map>
+	<map>
+		<framework name="Cast@11" out_port_id="0"/>
+		<IR name="Mul@19" out_port_id="2" id="254"/>
+	</map>
+	<map>
+		<framework name="Add@67" out_port_id="0"/>
+		<IR name="Add@67" out_port_id="2" id="596"/>
+	</map>
+	<map>
+		<framework name="Mul@42" out_port_id="0"/>
+		<IR name="Mul@42" out_port_id="2" id="382"/>
+	</map>
+	<map>
+		<framework name="Constant@4" out_port_id="0"/>
+		<IR name="Constant@4/EltwiseUnsqueeze15668_const" out_port_id="0" id="15"/>
+	</map>
+	<map>
+		<framework name="Constant@103" out_port_id="0"/>
+		<IR name="Constant@103/EltwiseUnsqueeze15904_const" out_port_id="0" id="467"/>
+	</map>
+	<map>
+		<framework name="conv15_expand_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@40/mean/Fused_Mul_1693616938_const" out_port_id="0" id="463"/>
+	</map>
+	<map>
+		<framework name="conv13_expand_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@34/mean/Fused_Mul_1691216914_const" out_port_id="0" id="360"/>
+	</map>
+	<map>
+		<framework name="Clip@0" out_port_id="0"/>
+		<IR name="Clip@0" out_port_id="1" id="25"/>
+	</map>
+	<map>
+		<framework name="Resize@1" out_port_id="0"/>
+		<IR name="Resize@1" out_port_id="4" id="651"/>
+	</map>
+	<map>
+		<framework name="conv13_se_1_weights" out_port_id="0"/>
+		<IR name="conv13_se_1_weights/Output_0/Data__const" out_port_id="0" id="392"/>
+	</map>
+	<map>
+		<framework name="GlobalAveragePool@6" out_port_id="0"/>
+		<IR name="GlobalAveragePool@6/reduce" out_port_id="2" id="494"/>
+	</map>
+	<map>
+		<framework name="Add@29" out_port_id="0"/>
+		<IR name="Add@29" out_port_id="2" id="301"/>
+	</map>
+	<map>
+		<framework name="Clip@18" out_port_id="0"/>
+		<IR name="Clip@18" out_port_id="1" id="537"/>
+	</map>
+	<map>
+		<framework name="Mul@3" out_port_id="0"/>
+		<IR name="Mul@3" out_port_id="2" id="103"/>
+	</map>
+	<map>
+		<framework name="Mul@58" out_port_id="0"/>
+		<IR name="Mul@58" out_port_id="2" id="523"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@29" out_port_id="0"/>
+		<IR name="BatchNormalization@29/variance/Fused_Add_" out_port_id="2" id="293"/>
+	</map>
+	<map>
+		<framework name="Cast@16" out_port_id="0"/>
+		<IR name="BatchNormalization@29/variance/Fused_Add_" out_port_id="2" id="293"/>
+	</map>
+	<map>
+		<framework name="Add@43" out_port_id="0"/>
+		<IR name="Add@43" out_port_id="2" id="409"/>
+	</map>
+	<map>
+		<framework name="conv16_linear_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@45/mean/Fused_Mul_1695616958_const" out_port_id="0" id="562"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@25" out_port_id="0"/>
+		<IR name="BatchNormalization@25/variance/Fused_Add_" out_port_id="2" id="248"/>
+	</map>
+	<map>
+		<framework name="Cast@10" out_port_id="0"/>
+		<IR name="BatchNormalization@25/variance/Fused_Add_" out_port_id="2" id="248"/>
+	</map>
+	<map>
+		<framework name="conv3_depthwise_weights" out_port_id="0"/>
+		<IR name="2976329766_const" out_port_id="0" id="49"/>
+	</map>
+	<map>
+		<framework name="Constant@120" out_port_id="0"/>
+		<IR name="Constant@120/EltwiseUnsqueeze15940_const" out_port_id="0" id="516"/>
+	</map>
+	<map>
+		<framework name="Constant@66" out_port_id="0"/>
+		<IR name="Constant@66/EltwiseUnsqueeze15820_const" out_port_id="0" id="324"/>
+	</map>
+	<map>
+		<framework name="image" out_port_id="0"/>
+		<IR name="image" out_port_id="0" id="16"/>
+	</map>
+	<map>
+		<framework name="Mul@49" out_port_id="0"/>
+		<IR name="Mul@49" out_port_id="2" id="432"/>
+	</map>
+	<map>
+		<framework name="Mul@24" out_port_id="0"/>
+		<IR name="Mul@24" out_port_id="2" id="284"/>
+	</map>
+	<map>
+		<framework name="GlobalAveragePool@3" out_port_id="0"/>
+		<IR name="GlobalAveragePool@3/reduce" out_port_id="2" id="338"/>
+	</map>
+	<map>
+		<framework name="Constant@88" out_port_id="0"/>
+		<IR name="Constant@88/EltwiseUnsqueeze15868_const" out_port_id="0" id="415"/>
+	</map>
+	<map>
+		<framework name="conv7_linear_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@18/mean/Fused_Mul_1684816850_const" out_port_id="0" id="175"/>
+	</map>
+	<map>
+		<framework name="Constant@54" out_port_id="0"/>
+		<IR name="Constant@54/EltwiseUnsqueeze15788_const" out_port_id="0" id="295"/>
+	</map>
+	<map>
+		<framework name="Mul@7" out_port_id="0"/>
+		<IR name="Mul@7" out_port_id="2" id="189"/>
+	</map>
+	<map>
+		<framework name="Cast@3" out_port_id="0"/>
+		<IR name="Mul@7" out_port_id="2" id="189"/>
+	</map>
+	<map>
+		<framework name="Add@28" out_port_id="0"/>
+		<IR name="Add@28" out_port_id="2" id="297"/>
+	</map>
+	<map>
+		<framework name="Clip@9" out_port_id="0"/>
+		<IR name="Clip@9" out_port_id="1" id="315"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@41" out_port_id="0"/>
+		<IR name="BatchNormalization@41/variance/Fused_Add_" out_port_id="2" id="478"/>
+	</map>
+	<map>
+		<framework name="Cast@32" out_port_id="0"/>
+		<IR name="BatchNormalization@41/variance/Fused_Add_" out_port_id="2" id="478"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@30" out_port_id="0"/>
+		<IR name="BatchNormalization@30/variance/Fused_Add_" out_port_id="2" id="305"/>
+	</map>
+	<map>
+		<framework name="conv6_linear_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@15/mean/Fused_Mul_1683616838_const" out_port_id="0" id="139"/>
+	</map>
+	<map>
+		<framework name="Constant@34" out_port_id="0"/>
+		<IR name="Constant@34/EltwiseUnsqueeze15732_const" out_port_id="0" id="209"/>
+	</map>
+	<map>
+		<framework name="Add@50" out_port_id="0"/>
+		<IR name="Add@50" out_port_id="2" id="470"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@47" out_port_id="0"/>
+		<IR name="BatchNormalization@47/variance/Fused_Add_" out_port_id="2" id="582"/>
+	</map>
+	<map>
+		<framework name="decoder/weights" out_port_id="0"/>
+		<IR name="decoder/weights/Output_0/Data__const" out_port_id="0" id="652"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@3" out_port_id="0"/>
+		<IR name="BatchNormalization@3/variance/Fused_Add_" out_port_id="2" id="42"/>
+	</map>
+	<map>
+		<framework name="Mul@5" out_port_id="0"/>
+		<IR name="Mul@5" out_port_id="2" id="174"/>
+	</map>
+	<map>
+		<framework name="HardSigmoid@0" out_port_id="0"/>
+		<IR name="HardSigmoid@0/HardSigmoid_" out_port_id="3" id="102"/>
+	</map>
+	<map>
+		<framework name="Mul@4" out_port_id="0"/>
+		<IR name="Mul@4" out_port_id="2" id="138"/>
+	</map>
+	<map>
+		<framework name="Concat@2" out_port_id="0"/>
+		<IR name="Concat@2" out_port_id="2" id="635"/>
+	</map>
+	<map>
+		<framework name="Clip@19" out_port_id="0"/>
+		<IR name="Clip@19" out_port_id="1" id="575"/>
+	</map>
+	<map>
+		<framework name="Constant@5" out_port_id="0"/>
+		<IR name="Constant@5/EltwiseUnsqueeze15672_const" out_port_id="0" id="14"/>
+	</map>
+	<map>
+		<framework name="conv_last_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@46/mean/Fused_Mul_1696016962_const" out_port_id="0" id="567"/>
+	</map>
+	<map>
+		<framework name="Constant@112" out_port_id="0"/>
+		<IR name="Constant@112/EltwiseUnsqueeze15924_const" out_port_id="0" id="460"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@35" out_port_id="0"/>
+		<IR name="BatchNormalization@35/variance/Fused_Add_" out_port_id="2" id="375"/>
+	</map>
+	<map>
+		<framework name="Cast@24" out_port_id="0"/>
+		<IR name="BatchNormalization@35/variance/Fused_Add_" out_port_id="2" id="375"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@26" out_port_id="0"/>
+		<IR name="BatchNormalization@26/variance/Fused_Add_" out_port_id="2" id="260"/>
+	</map>
+	<map>
+		<framework name="Cast@12" out_port_id="0"/>
+		<IR name="BatchNormalization@26/variance/Fused_Add_" out_port_id="2" id="260"/>
+	</map>
+	<map>
+		<framework name="Add@48" out_port_id="0"/>
+		<IR name="Add@48" out_port_id="2" id="445"/>
+	</map>
+	<map>
+		<framework name="Add@3" out_port_id="0"/>
+		<IR name="Add@3" out_port_id="2" id="72"/>
+	</map>
+	<map>
+		<framework name="Mul@12" out_port_id="0"/>
+		<IR name="Mul@12" out_port_id="2" id="218"/>
+	</map>
+	<map>
+		<framework name="Constant@16" out_port_id="0"/>
+		<IR name="Constant@16/EltwiseUnsqueeze15684_const" out_port_id="0" id="13"/>
+	</map>
+	<map>
+		<framework name="Concat@0" out_port_id="0"/>
+		<IR name="Concat@0" out_port_id="2" id="607"/>
+	</map>
+	<map>
+		<framework name="conv12_expand_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@31/mean/Fused_Mul_1690016902_const" out_port_id="0" id="307"/>
+	</map>
+	<map>
+		<framework name="conv7_se_1_weights" out_port_id="0"/>
+		<IR name="conv7_se_1_weights/Output_0/Data__const" out_port_id="0" id="162"/>
+	</map>
+	<map>
+		<framework name="conv13_linear_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@36/mean/Fused_Mul_1692016922_const" out_port_id="0" id="405"/>
+	</map>
+	<map>
+		<framework name="Constant@18" out_port_id="0"/>
+		<IR name="Constant@18/EltwiseUnsqueeze15692_const" out_port_id="0" id="197"/>
+	</map>
+	<map>
+		<framework name="Constant@89" out_port_id="0"/>
+		<IR name="Constant@89/EltwiseUnsqueeze15872_const" out_port_id="0" id="414"/>
+	</map>
+	<map>
+		<framework name="Add@33" out_port_id="0"/>
+		<IR name="Add@33" out_port_id="2" id="326"/>
+	</map>
+	<map>
+		<framework name="conv4_linear_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@9/mean/Fused_Mul_1681216814_const" out_port_id="0" id="68"/>
+	</map>
+	<map>
+		<framework name="Mul@62" out_port_id="0"/>
+		<IR name="Mul@62" out_port_id="2" id="538"/>
+	</map>
+	<map>
+		<framework name="Cast@37" out_port_id="0"/>
+		<IR name="Mul@62" out_port_id="2" id="538"/>
+	</map>
+	<map>
+		<framework name="Constant@92" out_port_id="0"/>
+		<IR name="Constant@92/EltwiseUnsqueeze15876_const" out_port_id="0" id="5"/>
+	</map>
+	<map>
+		<framework name="Constant@28" out_port_id="0"/>
+		<IR name="Constant@28/EltwiseUnsqueeze15716_const" out_port_id="0" id="211"/>
+	</map>
+	<map>
+		<framework name="Mul@70" out_port_id="0"/>
+		<IR name="Mul@70" out_port_id="2" id="624"/>
+	</map>
+	<map>
+		<framework name="Mul@47" out_port_id="0"/>
+		<IR name="Mul@47" out_port_id="2" id="428"/>
+	</map>
+	<map>
+		<framework name="Transpose@0" out_port_id="0"/>
+		<IR name="Transpose@0" out_port_id="2" id="685"/>
+	</map>
+	<map>
+		<framework name="Constant@17" out_port_id="0"/>
+		<IR name="Constant@17/EltwiseUnsqueeze15688_const" out_port_id="0" id="12"/>
+	</map>
+	<map>
+		<framework name="Conv@12" out_port_id="0"/>
+		<IR name="Conv@12" out_port_id="2" id="92"/>
+	</map>
+	<map>
+		<framework name="Constant@98" out_port_id="0"/>
+		<IR name="Constant@98/EltwiseUnsqueeze15892_const" out_port_id="0" id="3"/>
+	</map>
+	<map>
+		<framework name="Add@0" out_port_id="0"/>
+		<IR name="Add@0" out_port_id="2" id="24"/>
+	</map>
+	<map>
+		<framework name="Add@21" out_port_id="0"/>
+		<IR name="Add@21" out_port_id="2" id="252"/>
+	</map>
+	<map>
+		<framework name="decoder/merge/weights" out_port_id="0"/>
+		<IR name="decoder/merge/weights/Output_0/Data__const" out_port_id="0" id="654"/>
+	</map>
+	<map>
+		<framework name="Clip@6" out_port_id="0"/>
+		<IR name="Clip@6" out_port_id="1" id="265"/>
+	</map>
+	<map>
+		<framework name="Constant@47" out_port_id="0"/>
+		<IR name="Constant@47/EltwiseUnsqueeze15768_const" out_port_id="0" id="241"/>
+	</map>
+	<map>
+		<framework name="Slice@3" out_port_id="0"/>
+		<IR name="Slice@3" out_port_id="4" id="629"/>
+	</map>
+	<map>
+		<framework name="Relu@9" out_port_id="0"/>
+		<IR name="Relu@9" out_port_id="1" id="112"/>
+	</map>
+	<map>
+		<framework name="Constant@109" out_port_id="0"/>
+		<IR name="Constant@109/EltwiseUnsqueeze15920_const" out_port_id="0" id="479"/>
+	</map>
+	<map>
+		<framework name="Add@42" out_port_id="0"/>
+		<IR name="Add@42" out_port_id="2" id="400"/>
+	</map>
+	<map>
+		<framework name="conv12_linear_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@33/mean/Fused_Mul_1690816910_const" out_port_id="0" id="352"/>
+	</map>
+	<map>
+		<framework name="Relu@19" out_port_id="0"/>
+		<IR name="Relu@19" out_port_id="1" id="553"/>
+	</map>
+	<map>
+		<framework name="Add@22" out_port_id="0"/>
+		<IR name="Add@22" out_port_id="2" id="256"/>
+	</map>
+	<map>
+		<framework name="Mul@34" out_port_id="0"/>
+		<IR name="Mul@34" out_port_id="2" id="328"/>
+	</map>
+	<map>
+		<framework name="Cast@21" out_port_id="0"/>
+		<IR name="Mul@34" out_port_id="2" id="328"/>
+	</map>
+	<map>
+		<framework name="Constant@116" out_port_id="0"/>
+		<IR name="Constant@116/EltwiseUnsqueeze15932_const" out_port_id="0" id="522"/>
+	</map>
+	<map>
+		<framework name="Add@61" out_port_id="0"/>
+		<IR name="Add@61" out_port_id="2" id="552"/>
+	</map>
+	<map>
+		<framework name="Mul@22" out_port_id="0"/>
+		<IR name="Mul@22" out_port_id="2" id="266"/>
+	</map>
+	<map>
+		<framework name="Cast@13" out_port_id="0"/>
+		<IR name="Mul@22" out_port_id="2" id="266"/>
+	</map>
+	<map>
+		<framework name="Add@7" out_port_id="0"/>
+		<IR name="Add@7" out_port_id="2" id="134"/>
+	</map>
+	<map>
+		<framework name="Reshape@5" out_port_id="0"/>
+		<IR name="Reshape@5/Output_0/Data__const" out_port_id="0" id="169"/>
+	</map>
+	<map>
+		<framework name="Constant@23" out_port_id="0"/>
+		<IR name="Constant@23/EltwiseUnsqueeze15704_const" out_port_id="0" id="10"/>
+	</map>
+	<map>
+		<framework name="Reshape@7" out_port_id="0"/>
+		<IR name="Reshape@7/Output_0/Data__const" out_port_id="0" id="346"/>
+	</map>
+	<map>
+		<framework name="Mul@20" out_port_id="0"/>
+		<IR name="Mul@20" out_port_id="2" id="255"/>
+	</map>
+	<map>
+		<framework name="Add@65" out_port_id="0"/>
+		<IR name="Add@65" out_port_id="2" id="578"/>
+	</map>
+	<map>
+		<framework name="conv7_se_2_weights" out_port_id="0"/>
+		<IR name="conv7_se_2_weights/Output_0/Data__const" out_port_id="0" id="167"/>
+	</map>
+	<map>
+		<framework name="conv4_expand_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@7/mean/Fused_Mul_1680416806_const" out_port_id="0" id="58"/>
+	</map>
+	<map>
+		<framework name="conv6_se_1_weights" out_port_id="0"/>
+		<IR name="conv6_se_1_weights/Output_0/Data__const" out_port_id="0" id="126"/>
+	</map>
+	<map>
+		<framework name="Constant@65" out_port_id="0"/>
+		<IR name="Constant@65/EltwiseUnsqueeze15816_const" out_port_id="0" id="8"/>
+	</map>
+	<map>
+		<framework name="Mul@51" out_port_id="0"/>
+		<IR name="Mul@51" out_port_id="2" id="469"/>
+	</map>
+	<map>
+		<framework name="Reshape@8" out_port_id="0"/>
+		<IR name="Reshape@8/Output_0/Data__const" out_port_id="0" id="394"/>
+	</map>
+	<map>
+		<framework name="Add@54" out_port_id="0"/>
+		<IR name="Add@54" out_port_id="2" id="498"/>
+	</map>
+	<map>
+		<framework name="Constant@81" out_port_id="0"/>
+		<IR name="Constant@81/EltwiseUnsqueeze15856_const" out_port_id="0" id="376"/>
+	</map>
+	<map>
+		<framework name="Add@11" out_port_id="0"/>
+		<IR name="Add@11" out_port_id="2" id="179"/>
+	</map>
+	<map>
+		<framework name="Mul@28" out_port_id="0"/>
+		<IR name="Mul@28" out_port_id="2" id="299"/>
+	</map>
+	<map>
+		<framework name="Cast@17" out_port_id="0"/>
+		<IR name="Mul@28" out_port_id="2" id="299"/>
+	</map>
+	<map>
+		<framework name="Relu@1" out_port_id="0"/>
+		<IR name="Relu@1" out_port_id="1" id="38"/>
+	</map>
+	<map>
+		<framework name="Add@53" out_port_id="0"/>
+		<IR name="Add@53" out_port_id="2" id="486"/>
+	</map>
+	<map>
+		<framework name="Constant@135" out_port_id="0"/>
+		<IR name="Constant@135/EltwiseUnsqueeze15976_const" out_port_id="0" id="0"/>
+	</map>
+	<map>
+		<framework name="Constant@71" out_port_id="0"/>
+		<IR name="Constant@71/EltwiseUnsqueeze15832_const" out_port_id="0" id="6"/>
+	</map>
+	<map>
+		<framework name="Mul@23" out_port_id="0"/>
+		<IR name="Mul@23" out_port_id="2" id="267"/>
+	</map>
+	<map>
+		<framework name="conv6_depthwise_weights" out_port_id="0"/>
+		<IR name="2978729790_const" out_port_id="0" id="113"/>
+	</map>
+	<map>
+		<framework name="Reshape@3" out_port_id="0"/>
+		<IR name="Reshape@3/Output_0/Data__const" out_port_id="0" id="133"/>
+	</map>
+	<map>
+		<framework name="conv12_se_2_weights" out_port_id="0"/>
+		<IR name="conv12_se_2_weights/Output_0/Data__const" out_port_id="0" id="344"/>
+	</map>
+	<map>
+		<framework name="conv2_expand_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@1/mean/Fused_Mul_1678016782_const" out_port_id="0" id="29"/>
+	</map>
+	<map>
+		<framework name="GlobalAveragePool@2" out_port_id="0"/>
+		<IR name="GlobalAveragePool@2/reduce" out_port_id="2" id="161"/>
+	</map>
+	<map>
+		<framework name="Relu@7" out_port_id="0"/>
+		<IR name="Relu@7" out_port_id="1" id="82"/>
+	</map>
+	<map>
+		<framework name="HardSigmoid@3" out_port_id="0"/>
+		<IR name="HardSigmoid@3/HardSigmoid_" out_port_id="3" id="350"/>
+	</map>
+	<map>
+		<framework name="Relu@13" out_port_id="0"/>
+		<IR name="Relu@13" out_port_id="1" id="153"/>
+	</map>
+	<map>
+		<framework name="Identity@0" out_port_id="0"/>
+		<IR name="save_infer_model/scale_0.tmp_0" out_port_id="2" id="691"/>
+	</map>
+	<map>
+		<framework name="Unsqueeze@0" out_port_id="0"/>
+		<IR name="save_infer_model/scale_0.tmp_0" out_port_id="2" id="691"/>
+	</map>
+	<map>
+		<framework name="Mul@45" out_port_id="0"/>
+		<IR name="Mul@45" out_port_id="2" id="419"/>
+	</map>
+	<map>
+		<framework name="Cast@27" out_port_id="0"/>
+		<IR name="Mul@45" out_port_id="2" id="419"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@39" out_port_id="0"/>
+		<IR name="BatchNormalization@39/variance/Fused_Add_" out_port_id="2" id="458"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@44" out_port_id="0"/>
+		<IR name="BatchNormalization@44/variance/Fused_Add_" out_port_id="2" id="532"/>
+	</map>
+	<map>
+		<framework name="Cast@36" out_port_id="0"/>
+		<IR name="BatchNormalization@44/variance/Fused_Add_" out_port_id="2" id="532"/>
+	</map>
+	<map>
+		<framework name="Mul@40" out_port_id="0"/>
+		<IR name="Mul@40" out_port_id="2" id="378"/>
+	</map>
+	<map>
+		<framework name="Mul@50" out_port_id="0"/>
+		<IR name="Mul@50" out_port_id="2" id="454"/>
+	</map>
+	<map>
+		<framework name="Mul@41" out_port_id="0"/>
+		<IR name="Mul@41" out_port_id="2" id="381"/>
+	</map>
+	<map>
+		<framework name="Cast@25" out_port_id="0"/>
+		<IR name="Mul@41" out_port_id="2" id="381"/>
+	</map>
+	<map>
+		<framework name="Constant@52" out_port_id="0"/>
+		<IR name="Constant@52/EltwiseUnsqueeze15780_const" out_port_id="0" id="277"/>
+	</map>
+	<map>
+		<framework name="Constant@107" out_port_id="0"/>
+		<IR name="Constant@107/EltwiseUnsqueeze15912_const" out_port_id="0" id="461"/>
+	</map>
+	<map>
+		<framework name="Mul@26" out_port_id="0"/>
+		<IR name="Mul@26" out_port_id="2" id="288"/>
+	</map>
+	<map>
+		<framework name="Add@14" out_port_id="0"/>
+		<IR name="Add@14" out_port_id="2" id="199"/>
+	</map>
+	<map>
+		<framework name="Mul@37" out_port_id="0"/>
+		<IR name="Mul@37" out_port_id="2" id="366"/>
+	</map>
+	<map>
+		<framework name="conv14_depthwise_weights" out_port_id="0"/>
+		<IR name="2979929802_const" out_port_id="0" id="422"/>
+	</map>
+	<map>
+		<framework name="Conv@17" out_port_id="0"/>
+		<IR name="Conv@17" out_port_id="2" id="127"/>
+	</map>
+	<map>
+		<framework name="Add@2" out_port_id="0"/>
+		<IR name="Add@2" out_port_id="2" id="43"/>
+	</map>
+	<map>
+		<framework name="conv5_se_2_weights" out_port_id="0"/>
+		<IR name="conv5_se_2_weights/Output_0/Data__const" out_port_id="0" id="96"/>
+	</map>
+	<map>
+		<framework name="Clip@14" out_port_id="0"/>
+		<IR name="Clip@14" out_port_id="1" id="430"/>
+	</map>
+	<map>
+		<framework name="Clip@2" out_port_id="0"/>
+		<IR name="Clip@2" out_port_id="1" id="200"/>
+	</map>
+	<map>
+		<framework name="Add@57" out_port_id="0"/>
+		<IR name="Add@57" out_port_id="2" id="524"/>
+	</map>
+	<map>
+		<framework name="Conv@65" out_port_id="0"/>
+		<IR name="Conv@65" out_port_id="2" id="653"/>
+	</map>
+	<map>
+		<framework name="Clip@1" out_port_id="0"/>
+		<IR name="Clip@1" out_port_id="1" id="188"/>
+	</map>
+	<map>
+		<framework name="Relu@6" out_port_id="0"/>
+		<IR name="Relu@6" out_port_id="1" id="77"/>
+	</map>
+	<map>
+		<framework name="Conv@66" out_port_id="0"/>
+		<IR name="Conv@66" out_port_id="2" id="655"/>
+	</map>
+	<map>
+		<framework name="Add@55" out_port_id="0"/>
+		<IR name="Add@55" out_port_id="2" id="503"/>
+	</map>
+	<map>
+		<framework name="Slice@1" out_port_id="0"/>
+		<IR name="Slice@1" out_port_id="4" id="601"/>
+	</map>
+	<map>
+		<framework name="Constant@12" out_port_id="0"/>
+		<IR name="Constant@12/EltwiseUnsqueeze15676_const" out_port_id="0" id="185"/>
+	</map>
+	<map>
+		<framework name="Add@6" out_port_id="0"/>
+		<IR name="Add@6" out_port_id="2" id="129"/>
+	</map>
+	<map>
+		<framework name="Constant@0" out_port_id="0"/>
+		<IR name="Constant@0/EltwiseUnsqueeze15660_const" out_port_id="0" id="22"/>
+	</map>
+	<map>
+		<framework name="Constant@58" out_port_id="0"/>
+		<IR name="Constant@58/EltwiseUnsqueeze15796_const" out_port_id="0" id="275"/>
+	</map>
+	<map>
+		<framework name="Mul@29" out_port_id="0"/>
+		<IR name="Mul@29" out_port_id="2" id="300"/>
+	</map>
+	<map>
+		<framework name="HardSigmoid@5" out_port_id="0"/>
+		<IR name="HardSigmoid@5/HardSigmoid_" out_port_id="3" id="453"/>
+	</map>
+	<map>
+		<framework name="GlobalAveragePool@1" out_port_id="0"/>
+		<IR name="GlobalAveragePool@1/reduce" out_port_id="2" id="125"/>
+	</map>
+	<map>
+		<framework name="Constant@49" out_port_id="0"/>
+		<IR name="Constant@49/EltwiseUnsqueeze15776_const" out_port_id="0" id="282"/>
+	</map>
+	<map>
+		<framework name="Add@17" out_port_id="0"/>
+		<IR name="Add@17" out_port_id="2" id="223"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@11" out_port_id="0"/>
+		<IR name="BatchNormalization@11/variance/Fused_Add_" out_port_id="2" id="81"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@24" out_port_id="0"/>
+		<IR name="BatchNormalization@24/variance/Fused_Add_" out_port_id="2" id="239"/>
+	</map>
+	<map>
+		<framework name="conv2_depthwise_weights" out_port_id="0"/>
+		<IR name="2979529798_const" out_port_id="0" id="34"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@19" out_port_id="0"/>
+		<IR name="BatchNormalization@19/variance/Fused_Add_" out_port_id="2" id="183"/>
+	</map>
+	<map>
+		<framework name="Cast@2" out_port_id="0"/>
+		<IR name="BatchNormalization@19/variance/Fused_Add_" out_port_id="2" id="183"/>
+	</map>
+	<map>
+		<framework name="Conv@13" out_port_id="0"/>
+		<IR name="Conv@13" out_port_id="2" id="97"/>
+	</map>
+	<map>
+		<framework name="Constant@13" out_port_id="0"/>
+		<IR name="Constant@13/EltwiseUnsqueeze15680_const" out_port_id="0" id="184"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@37" out_port_id="0"/>
+		<IR name="BatchNormalization@37/variance/Fused_Add_" out_port_id="2" id="413"/>
+	</map>
+	<map>
+		<framework name="Cast@26" out_port_id="0"/>
+		<IR name="BatchNormalization@37/variance/Fused_Add_" out_port_id="2" id="413"/>
+	</map>
+	<map>
+		<framework name="Mul@56" out_port_id="0"/>
+		<IR name="Mul@56" out_port_id="2" id="485"/>
+	</map>
+	<map>
+		<framework name="conv2_linear_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@3/mean/Fused_Mul_1678816790_const" out_port_id="0" id="39"/>
+	</map>
+	<map>
+		<framework name="HardSigmoid@2" out_port_id="0"/>
+		<IR name="HardSigmoid@2/HardSigmoid_" out_port_id="3" id="173"/>
+	</map>
+	<map>
+		<framework name="conv8_depthwise_weights" out_port_id="0"/>
+		<IR name="2978329786_const" out_port_id="0" id="192"/>
+	</map>
+	<map>
+		<framework name="Relu@17" out_port_id="0"/>
+		<IR name="Relu@17" out_port_id="1" id="446"/>
+	</map>
+	<map>
+		<framework name="conv7_expand_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@16/mean/Fused_Mul_1684016842_const" out_port_id="0" id="144"/>
+	</map>
+	<map>
+		<framework name="Add@39" out_port_id="0"/>
+		<IR name="Add@39" out_port_id="2" id="379"/>
+	</map>
+	<map>
+		<framework name="Mul@30" out_port_id="0"/>
+		<IR name="Mul@30" out_port_id="2" id="313"/>
+	</map>
+	<map>
+		<framework name="conv7_depthwise_weights" out_port_id="0"/>
+		<IR name="2975929762_const" out_port_id="0" id="149"/>
+	</map>
+	<map>
+		<framework name="Add@31" out_port_id="0"/>
+		<IR name="Add@31" out_port_id="2" id="314"/>
+	</map>
+	<map>
+		<framework name="Constant@108" out_port_id="0"/>
+		<IR name="Constant@108/EltwiseUnsqueeze15916_const" out_port_id="0" id="480"/>
+	</map>
+	<map>
+		<framework name="Reshape@10" out_port_id="0"/>
+		<IR name="Reshape@10/Output_0/Data__const" out_port_id="0" id="444"/>
+	</map>
+	<map>
+		<framework name="conv5_expand_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@10/mean/Fused_Mul_1681616818_const" out_port_id="0" id="73"/>
+	</map>
+	<map>
+		<framework name="Constant@61" out_port_id="0"/>
+		<IR name="Constant@61/EltwiseUnsqueeze15808_const" out_port_id="0" id="311"/>
+	</map>
+	<map>
+		<framework name="Mul@17" out_port_id="0"/>
+		<IR name="Mul@17" out_port_id="2" id="234"/>
+	</map>
+	<map>
+		<framework name="Add@1" out_port_id="0"/>
+		<IR name="Add@1" out_port_id="2" id="28"/>
+	</map>
+	<map>
+		<framework name="Conv@49" out_port_id="0"/>
+		<IR name="Conv@49" out_port_id="2" id="443"/>
+	</map>
+	<map>
+		<framework name="Mul@2" out_port_id="0"/>
+		<IR name="Mul@2" out_port_id="2" id="27"/>
+	</map>
+	<map>
+		<framework name="Constant@136" out_port_id="0"/>
+		<IR name="Constant@136/EltwiseUnsqueeze15980_const" out_port_id="0" id="587"/>
+	</map>
+	<map>
+		<framework name="Add@60" out_port_id="0"/>
+		<IR name="Add@60" out_port_id="2" id="540"/>
+	</map>
+	<map>
+		<framework name="Mul@13" out_port_id="0"/>
+		<IR name="Mul@13" out_port_id="2" id="221"/>
+	</map>
+	<map>
+		<framework name="Cast@7" out_port_id="0"/>
+		<IR name="Mul@13" out_port_id="2" id="221"/>
+	</map>
+	<map>
+		<framework name="Mul@59" out_port_id="0"/>
+		<IR name="Mul@59" out_port_id="2" id="526"/>
+	</map>
+	<map>
+		<framework name="Cast@35" out_port_id="0"/>
+		<IR name="Mul@59" out_port_id="2" id="526"/>
+	</map>
+	<map>
+		<framework name="Mul@31" out_port_id="0"/>
+		<IR name="Mul@31" out_port_id="2" id="316"/>
+	</map>
+	<map>
+		<framework name="Cast@19" out_port_id="0"/>
+		<IR name="Mul@31" out_port_id="2" id="316"/>
+	</map>
+	<map>
+		<framework name="Constant@46" out_port_id="0"/>
+		<IR name="Constant@46/EltwiseUnsqueeze15764_const" out_port_id="0" id="242"/>
+	</map>
+	<map>
+		<framework name="Constant@67" out_port_id="0"/>
+		<IR name="Constant@67/EltwiseUnsqueeze15824_const" out_port_id="0" id="323"/>
+	</map>
+	<map>
+		<framework name="Shape@4" out_port_id="0"/>
+		<IR name="Shape@4" out_port_id="1" id="662"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@7" out_port_id="0"/>
+		<IR name="BatchNormalization@7/variance/Fused_Add_" out_port_id="2" id="61"/>
+	</map>
+	<map>
+		<framework name="Constant@93" out_port_id="0"/>
+		<IR name="Constant@93/EltwiseUnsqueeze15880_const" out_port_id="0" id="4"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@23" out_port_id="0"/>
+		<IR name="BatchNormalization@23/variance/Fused_Add_" out_port_id="2" id="227"/>
+	</map>
+	<map>
+		<framework name="Cast@8" out_port_id="0"/>
+		<IR name="BatchNormalization@23/variance/Fused_Add_" out_port_id="2" id="227"/>
+	</map>
+	<map>
+		<framework name="conv5_linear_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@12/mean/Fused_Mul_1682416826_const" out_port_id="0" id="104"/>
+	</map>
+	<map>
+		<framework name="Add@49" out_port_id="0"/>
+		<IR name="Add@49" out_port_id="2" id="450"/>
+	</map>
+	<map>
+		<framework name="Constant@113" out_port_id="0"/>
+		<IR name="Constant@113/EltwiseUnsqueeze15928_const" out_port_id="0" id="459"/>
+	</map>
+	<map>
+		<framework name="Constant@141" out_port_id="0"/>
+		<IR name="Constant@141/EltwiseUnsqueeze15992_const" out_port_id="0" id="584"/>
+	</map>
+	<map>
+		<framework name="encoder/image_pool/weights" out_port_id="0"/>
+		<IR name="encoder/image_pool/weights/Output_0/Data__const" out_port_id="0" id="590"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@38" out_port_id="0"/>
+		<IR name="BatchNormalization@38/variance/Fused_Add_" out_port_id="2" id="425"/>
+	</map>
+	<map>
+		<framework name="Cast@28" out_port_id="0"/>
+		<IR name="BatchNormalization@38/variance/Fused_Add_" out_port_id="2" id="425"/>
+	</map>
+	<map>
+		<framework name="Mul@69" out_port_id="0"/>
+		<IR name="Mul@69" out_port_id="2" id="595"/>
+	</map>
+	<map>
+		<framework name="Constant@117" out_port_id="0"/>
+		<IR name="Constant@117/EltwiseUnsqueeze15936_const" out_port_id="0" id="521"/>
+	</map>
+	<map>
+		<framework name="Constant@80" out_port_id="0"/>
+		<IR name="Constant@80/EltwiseUnsqueeze15852_const" out_port_id="0" id="377"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@6" out_port_id="0"/>
+		<IR name="BatchNormalization@6/variance/Fused_Add_" out_port_id="2" id="57"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@20" out_port_id="0"/>
+		<IR name="BatchNormalization@20/variance/Fused_Add_" out_port_id="2" id="195"/>
+	</map>
+	<map>
+		<framework name="Cast@4" out_port_id="0"/>
+		<IR name="BatchNormalization@20/variance/Fused_Add_" out_port_id="2" id="195"/>
+	</map>
+	<map>
+		<framework name="Add@59" out_port_id="0"/>
+		<IR name="Add@59" out_port_id="2" id="536"/>
+	</map>
+	<map>
+		<framework name="conv9_expand_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@22/mean/Fused_Mul_1686416866_const" out_port_id="0" id="212"/>
+	</map>
+	<map>
+		<framework name="Add@68" out_port_id="0"/>
+		<IR name="Add@68" out_port_id="2" id="656"/>
+	</map>
+	<map>
+		<framework name="Constant@31" out_port_id="0"/>
+		<IR name="Constant@31/EltwiseUnsqueeze15728_const" out_port_id="0" id="228"/>
+	</map>
+	<map>
+		<framework name="Add@37" out_port_id="0"/>
+		<IR name="Add@37" out_port_id="2" id="367"/>
+	</map>
+	<map>
+		<framework name="Add@30" out_port_id="0"/>
+		<IR name="Add@30" out_port_id="2" id="306"/>
+	</map>
+	<map>
+		<framework name="Constant@29" out_port_id="0"/>
+		<IR name="Constant@29/EltwiseUnsqueeze15720_const" out_port_id="0" id="210"/>
+	</map>
+	<map>
+		<framework name="Add@66" out_port_id="0"/>
+		<IR name="Add@66" out_port_id="2" id="593"/>
+	</map>
+	<map>
+		<framework name="Mul@53" out_port_id="0"/>
+		<IR name="Mul@53" out_port_id="2" id="473"/>
+	</map>
+	<map>
+		<framework name="conv5_se_1_weights" out_port_id="0"/>
+		<IR name="conv5_se_1_weights/Output_0/Data__const" out_port_id="0" id="91"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@46" out_port_id="0"/>
+		<IR name="BatchNormalization@46/variance/Fused_Add_" out_port_id="2" id="570"/>
+	</map>
+	<map>
+		<framework name="Cast@38" out_port_id="0"/>
+		<IR name="BatchNormalization@46/variance/Fused_Add_" out_port_id="2" id="570"/>
+	</map>
+	<map>
+		<framework name="Clip@11" out_port_id="0"/>
+		<IR name="Clip@11" out_port_id="1" id="368"/>
+	</map>
+	<map>
+		<framework name="Mul@11" out_port_id="0"/>
+		<IR name="Mul@11" out_port_id="2" id="202"/>
+	</map>
+	<map>
+		<framework name="Conv@55" out_port_id="0"/>
+		<IR name="Conv@55" out_port_id="2" id="501"/>
+	</map>
+	<map>
+		<framework name="HardSigmoid@7" out_port_id="0"/>
+		<IR name="HardSigmoid@7/HardSigmoid_" out_port_id="3" id="560"/>
+	</map>
+	<map>
+		<framework name="conv4_depthwise_weights" out_port_id="0"/>
+		<IR name="2977129774_const" out_port_id="0" id="63"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@10" out_port_id="0"/>
+		<IR name="BatchNormalization@10/variance/Fused_Add_" out_port_id="2" id="76"/>
+	</map>
+	<map>
+		<framework name="Add@56" out_port_id="0"/>
+		<IR name="Add@56" out_port_id="2" id="512"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@31" out_port_id="0"/>
+		<IR name="BatchNormalization@31/variance/Fused_Add_" out_port_id="2" id="310"/>
+	</map>
+	<map>
+		<framework name="Cast@18" out_port_id="0"/>
+		<IR name="BatchNormalization@31/variance/Fused_Add_" out_port_id="2" id="310"/>
+	</map>
+	<map>
+		<framework name="Constant@134" out_port_id="0"/>
+		<IR name="Constant@134/EltwiseUnsqueeze15972_const" out_port_id="0" id="1"/>
+	</map>
+	<map>
+		<framework name="Add@46" out_port_id="0"/>
+		<IR name="Add@46" out_port_id="2" id="429"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@40" out_port_id="0"/>
+		<IR name="BatchNormalization@40/variance/Fused_Add_" out_port_id="2" id="466"/>
+	</map>
+	<map>
+		<framework name="Cast@30" out_port_id="0"/>
+		<IR name="BatchNormalization@40/variance/Fused_Add_" out_port_id="2" id="466"/>
+	</map>
+	<map>
+		<framework name="Add@58" out_port_id="0"/>
+		<IR name="Add@58" out_port_id="2" id="528"/>
+	</map>
+	<map>
+		<framework name="Relu@8" out_port_id="0"/>
+		<IR name="Relu@8" out_port_id="1" id="95"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@36" out_port_id="0"/>
+		<IR name="BatchNormalization@36/variance/Fused_Add_" out_port_id="2" id="408"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@15" out_port_id="0"/>
+		<IR name="BatchNormalization@15/variance/Fused_Add_" out_port_id="2" id="142"/>
+	</map>
+	<map>
+		<framework name="Add@15" out_port_id="0"/>
+		<IR name="Add@15" out_port_id="2" id="203"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@17" out_port_id="0"/>
+		<IR name="BatchNormalization@17/variance/Fused_Add_" out_port_id="2" id="152"/>
+	</map>
+	<map>
+		<framework name="Shape@2" out_port_id="0"/>
+		<IR name="Shape@2" out_port_id="1" id="630"/>
+	</map>
+	<map>
+		<framework name="Add@18" out_port_id="0"/>
+		<IR name="Add@18" out_port_id="2" id="231"/>
+	</map>
+	<map>
+		<framework name="Conv@50" out_port_id="0"/>
+		<IR name="Conv@50" out_port_id="2" id="448"/>
+	</map>
+	<map>
+		<framework name="Relu@3" out_port_id="0"/>
+		<IR name="Relu@3" out_port_id="1" id="53"/>
+	</map>
+	<map>
+		<framework name="Clip@15" out_port_id="0"/>
+		<IR name="Clip@15" out_port_id="1" id="471"/>
+	</map>
+	<map>
+		<framework name="Conv@23" out_port_id="0"/>
+		<IR name="Conv@23" out_port_id="2" id="168"/>
+	</map>
+	<map>
+		<framework name="conv16_depthwise_weights" out_port_id="0"/>
+		<IR name="2977929782_const" out_port_id="0" id="529"/>
+	</map>
+	<map>
+		<framework name="Reshape@0" out_port_id="0"/>
+		<IR name="Reshape@0/Output_0/Data__const" out_port_id="0" id="93"/>
+	</map>
+	<map>
+		<framework name="Mul@33" out_port_id="0"/>
+		<IR name="Mul@33" out_port_id="2" id="325"/>
+	</map>
+	<map>
+		<framework name="Mul@39" out_port_id="0"/>
+		<IR name="Mul@39" out_port_id="2" id="370"/>
+	</map>
+	<map>
+		<framework name="Relu@14" out_port_id="0"/>
+		<IR name="Relu@14" out_port_id="1" id="166"/>
+	</map>
+	<map>
+		<framework name="conv8_expand_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@19/mean/Fused_Mul_1685216854_const" out_port_id="0" id="180"/>
+	</map>
+	<map>
+		<framework name="Add@62" out_port_id="0"/>
+		<IR name="Add@62" out_port_id="2" id="557"/>
+	</map>
+	<map>
+		<framework name="Reshape@11" out_port_id="0"/>
+		<IR name="Reshape@11/Output_0/Data__const" out_port_id="0" id="449"/>
+	</map>
+	<map>
+		<framework name="ReduceMean@0" out_port_id="0"/>
+		<IR name="ReduceMean@0" out_port_id="2" id="589"/>
+	</map>
+	<map>
+		<framework name="Clip@4" out_port_id="0"/>
+		<IR name="Clip@4" out_port_id="1" id="232"/>
+	</map>
+	<map>
+		<framework name="conv6_expand_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@13/mean/Fused_Mul_1682816830_const" out_port_id="0" id="108"/>
+	</map>
+	<map>
+		<framework name="Add@10" out_port_id="0"/>
+		<IR name="Add@10" out_port_id="2" id="170"/>
+	</map>
+	<map>
+		<framework name="Add@12" out_port_id="0"/>
+		<IR name="Add@12" out_port_id="2" id="187"/>
+	</map>
+	<map>
+		<framework name="Add@40" out_port_id="0"/>
+		<IR name="Add@40" out_port_id="2" id="383"/>
+	</map>
+	<map>
+		<framework name="GlobalAveragePool@4" out_port_id="0"/>
+		<IR name="GlobalAveragePool@4/reduce" out_port_id="2" id="391"/>
+	</map>
+	<map>
+		<framework name="Add@41" out_port_id="0"/>
+		<IR name="Add@41" out_port_id="2" id="395"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@32" out_port_id="0"/>
+		<IR name="BatchNormalization@32/variance/Fused_Add_" out_port_id="2" id="322"/>
+	</map>
+	<map>
+		<framework name="Cast@20" out_port_id="0"/>
+		<IR name="BatchNormalization@32/variance/Fused_Add_" out_port_id="2" id="322"/>
+	</map>
+	<map>
+		<framework name="Constant@99" out_port_id="0"/>
+		<IR name="Constant@99/EltwiseUnsqueeze15896_const" out_port_id="0" id="2"/>
+	</map>
+	<map>
+		<framework name="conv1_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@0/mean/Fused_Mul_1677616778_const" out_port_id="0" id="17"/>
+	</map>
+	<map>
+		<framework name="Mul@43" out_port_id="0"/>
+		<IR name="Mul@43" out_port_id="2" id="404"/>
+	</map>
+	<map>
+		<framework name="Constant@131" out_port_id="0"/>
+		<IR name="Constant@131/EltwiseUnsqueeze15968_const" out_port_id="0" id="571"/>
+	</map>
+	<map>
+		<framework name="Add@64" out_port_id="0"/>
+		<IR name="Add@64" out_port_id="2" id="574"/>
+	</map>
+	<map>
+		<framework name="Mul@65" out_port_id="0"/>
+		<IR name="Mul@65" out_port_id="2" id="573"/>
+	</map>
+	<map>
+		<framework name="Resize@2" out_port_id="0"/>
+		<IR name="Resize@2" out_port_id="4" id="683"/>
+	</map>
+	<map>
+		<framework name="Constant@19" out_port_id="0"/>
+		<IR name="Constant@19/EltwiseUnsqueeze15696_const" out_port_id="0" id="196"/>
+	</map>
+	<map>
+		<framework name="Shape@5" out_port_id="0"/>
+		<IR name="Shape@5" out_port_id="1" id="657"/>
+	</map>
+	<map>
+		<framework name="Constant@1" out_port_id="0"/>
+		<IR name="Constant@1/EltwiseUnsqueeze15664_const" out_port_id="0" id="21"/>
+	</map>
+	<map>
+		<framework name="conv15_se_2_weights" out_port_id="0"/>
+		<IR name="conv15_se_2_weights/Output_0/Data__const" out_port_id="0" id="500"/>
+	</map>
+	<map>
+		<framework name="conv14_linear_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@39/mean/Fused_Mul_1693216934_const" out_port_id="0" id="455"/>
+	</map>
+	<map>
+		<framework name="Constant@36" out_port_id="0"/>
+		<IR name="Constant@36/EltwiseUnsqueeze15740_const" out_port_id="0" id="250"/>
+	</map>
+	<map>
+		<framework name="Shape@1" out_port_id="0"/>
+		<IR name="Shape@1" out_port_id="1" id="597"/>
+	</map>
+	<map>
+		<framework name="Constant@25" out_port_id="0"/>
+		<IR name="Constant@25/EltwiseUnsqueeze15712_const" out_port_id="0" id="216"/>
+	</map>
+	<map>
+		<framework name="Constant@140" out_port_id="0"/>
+		<IR name="Constant@140/EltwiseUnsqueeze15988_const" out_port_id="0" id="585"/>
+	</map>
+	<map>
+		<framework name="Relu@12" out_port_id="0"/>
+		<IR name="Relu@12" out_port_id="1" id="148"/>
+	</map>
+	<map>
+		<framework name="Mul@61" out_port_id="0"/>
+		<IR name="Mul@61" out_port_id="2" id="535"/>
+	</map>
+	<map>
+		<framework name="Mul@46" out_port_id="0"/>
+		<IR name="Mul@46" out_port_id="2" id="420"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@42" out_port_id="0"/>
+		<IR name="BatchNormalization@42/variance/Fused_Add_" out_port_id="2" id="511"/>
+	</map>
+	<map>
+		<framework name="Add@51" out_port_id="0"/>
+		<IR name="Add@51" out_port_id="2" id="474"/>
+	</map>
+	<map>
+		<framework name="Constant@137" out_port_id="0"/>
+		<IR name="Constant@137/EltwiseUnsqueeze15984_const" out_port_id="0" id="586"/>
+	</map>
+	<map>
+		<framework name="conv11_linear_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@30/mean/Fused_Mul_1689616898_const" out_port_id="0" id="302"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@5" out_port_id="0"/>
+		<IR name="BatchNormalization@5/variance/Fused_Add_" out_port_id="2" id="52"/>
+	</map>
+	<map>
+		<framework name="Constant@48" out_port_id="0"/>
+		<IR name="Constant@48/EltwiseUnsqueeze15772_const" out_port_id="0" id="283"/>
+	</map>
+	<map>
+		<framework name="Conv@22" out_port_id="0"/>
+		<IR name="Conv@22" out_port_id="2" id="163"/>
+	</map>
+	<map>
+		<framework name="Constant@84" out_port_id="0"/>
+		<IR name="Constant@84/EltwiseUnsqueeze15860_const" out_port_id="0" id="357"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@16" out_port_id="0"/>
+		<IR name="BatchNormalization@16/variance/Fused_Add_" out_port_id="2" id="147"/>
+	</map>
+	<map>
+		<framework name="Add@9" out_port_id="0"/>
+		<IR name="Add@9" out_port_id="2" id="165"/>
+	</map>
+	<map>
+		<framework name="Mul@16" out_port_id="0"/>
+		<IR name="Mul@16" out_port_id="2" id="233"/>
+	</map>
+	<map>
+		<framework name="Cast@9" out_port_id="0"/>
+		<IR name="Mul@16" out_port_id="2" id="233"/>
+	</map>
+	<map>
+		<framework name="Mul@14" out_port_id="0"/>
+		<IR name="Mul@14" out_port_id="2" id="222"/>
+	</map>
+	<map>
+		<framework name="Clip@3" out_port_id="0"/>
+		<IR name="Clip@3" out_port_id="1" id="220"/>
+	</map>
+	<map>
+		<framework name="Mul@8" out_port_id="0"/>
+		<IR name="Mul@8" out_port_id="2" id="190"/>
+	</map>
+	<map>
+		<framework name="Constant@70" out_port_id="0"/>
+		<IR name="Constant@70/EltwiseUnsqueeze15828_const" out_port_id="0" id="7"/>
+	</map>
+	<map>
+		<framework name="Shape@3" out_port_id="0"/>
+		<IR name="Shape@3" out_port_id="1" id="625"/>
+	</map>
+	<map>
+		<framework name="Shape@0" out_port_id="0"/>
+		<IR name="Shape@0" out_port_id="1" id="602"/>
+	</map>
+	<map>
+		<framework name="Constant@79" out_port_id="0"/>
+		<IR name="Constant@79/EltwiseUnsqueeze15848_const" out_port_id="0" id="358"/>
+	</map>
+	<map>
+		<framework name="Constant@74" out_port_id="0"/>
+		<IR name="Constant@74/EltwiseUnsqueeze15836_const" out_port_id="0" id="365"/>
+	</map>
+	<map>
+		<framework name="Mul@1" out_port_id="0"/>
+		<IR name="Mul@1" out_port_id="2" id="26"/>
+	</map>
+	<map>
+		<framework name="Cast@1" out_port_id="0"/>
+		<IR name="Mul@1" out_port_id="2" id="26"/>
+	</map>
+	<map>
+		<framework name="Clip@7" out_port_id="0"/>
+		<IR name="Clip@7" out_port_id="1" id="286"/>
+	</map>
+	<map>
+		<framework name="Constant@75" out_port_id="0"/>
+		<IR name="Constant@75/EltwiseUnsqueeze15840_const" out_port_id="0" id="364"/>
+	</map>
+	<map>
+		<framework name="Constant@41" out_port_id="0"/>
+		<IR name="Constant@41/EltwiseUnsqueeze15752_const" out_port_id="0" id="243"/>
+	</map>
+	<map>
+		<framework name="Add@45" out_port_id="0"/>
+		<IR name="Add@45" out_port_id="2" id="421"/>
+	</map>
+	<map>
+		<framework name="conv15_linear_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@42/mean/Fused_Mul_1694416946_const" out_port_id="0" id="508"/>
+	</map>
+	<map>
+		<framework name="conv10_depthwise_weights" out_port_id="0"/>
+		<IR name="2975529758_const" out_port_id="0" id="257"/>
+	</map>
+	<map>
+		<framework name="Mul@9" out_port_id="0"/>
+		<IR name="Mul@9" out_port_id="2" id="198"/>
+	</map>
+	<map>
+		<framework name="Mul@21" out_port_id="0"/>
+		<IR name="Mul@21" out_port_id="2" id="263"/>
+	</map>
+	<map>
+		<framework name="Add@26" out_port_id="0"/>
+		<IR name="Add@26" out_port_id="2" id="285"/>
+	</map>
+	<map>
+		<framework name="Add@52" out_port_id="0"/>
+		<IR name="Add@52" out_port_id="2" id="482"/>
+	</map>
+	<map>
+		<framework name="Constant@53" out_port_id="0"/>
+		<IR name="Constant@53/EltwiseUnsqueeze15784_const" out_port_id="0" id="276"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@2" out_port_id="0"/>
+		<IR name="BatchNormalization@2/variance/Fused_Add_" out_port_id="2" id="37"/>
+	</map>
+	<map>
+		<framework name="Relu@0" out_port_id="0"/>
+		<IR name="Relu@0" out_port_id="1" id="33"/>
+	</map>
+	<map>
+		<framework name="Mul@38" out_port_id="0"/>
+		<IR name="Mul@38" out_port_id="2" id="369"/>
+	</map>
+	<map>
+		<framework name="Cast@23" out_port_id="0"/>
+		<IR name="Mul@38" out_port_id="2" id="369"/>
+	</map>
+	<map>
+		<framework name="Conv@45" out_port_id="0"/>
+		<IR name="Conv@45" out_port_id="2" id="398"/>
+	</map>
+	<map>
+		<framework name="conv14_expand_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@37/mean/Fused_Mul_1692416926_const" out_port_id="0" id="410"/>
+	</map>
+	<map>
+		<framework name="Mul@60" out_port_id="0"/>
+		<IR name="Mul@60" out_port_id="2" id="527"/>
+	</map>
+	<map>
+		<framework name="conv9_linear_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@24/mean/Fused_Mul_1687216874_const" out_port_id="0" id="236"/>
+	</map>
+	<map>
+		<framework name="Add@8" out_port_id="0"/>
+		<IR name="Add@8" out_port_id="2" id="143"/>
+	</map>
+	<map>
+		<framework name="Mul@18" out_port_id="0"/>
+		<IR name="Mul@18" out_port_id="2" id="251"/>
+	</map>
+	<map>
+		<framework name="Clip@13" out_port_id="0"/>
+		<IR name="Clip@13" out_port_id="1" id="418"/>
+	</map>
+	<map>
+		<framework name="Relu@15" out_port_id="0"/>
+		<IR name="Relu@15" out_port_id="1" id="343"/>
+	</map>
+	<map>
+		<framework name="Constant@130" out_port_id="0"/>
+		<IR name="Constant@130/EltwiseUnsqueeze15964_const" out_port_id="0" id="572"/>
+	</map>
+	<map>
+		<framework name="GlobalAveragePool@0" out_port_id="0"/>
+		<IR name="GlobalAveragePool@0/reduce" out_port_id="2" id="90"/>
+	</map>
+	<map>
+		<framework name="Mul@44" out_port_id="0"/>
+		<IR name="Mul@44" out_port_id="2" id="416"/>
+	</map>
+	<map>
+		<framework name="conv13_se_2_weights" out_port_id="0"/>
+		<IR name="conv13_se_2_weights/Output_0/Data__const" out_port_id="0" id="397"/>
+	</map>
+	<map>
+		<framework name="Reshape@13" out_port_id="0"/>
+		<IR name="Reshape@13/Output_0/Data__const" out_port_id="0" id="502"/>
+	</map>
+	<map>
+		<framework name="Clip@8" out_port_id="0"/>
+		<IR name="Clip@8" out_port_id="1" id="298"/>
+	</map>
+	<map>
+		<framework name="Mul@48" out_port_id="0"/>
+		<IR name="Mul@48" out_port_id="2" id="431"/>
+	</map>
+	<map>
+		<framework name="Cast@29" out_port_id="0"/>
+		<IR name="Mul@48" out_port_id="2" id="431"/>
+	</map>
+	<map>
+		<framework name="Mul@63" out_port_id="0"/>
+		<IR name="Mul@63" out_port_id="2" id="539"/>
+	</map>
+	<map>
+		<framework name="conv13_depthwise_weights" out_port_id="0"/>
+		<IR name="2975129754_const" out_port_id="0" id="372"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@45" out_port_id="0"/>
+		<IR name="BatchNormalization@45/variance/Fused_Add_" out_port_id="2" id="565"/>
+	</map>
+	<map>
+		<framework name="Add@4" out_port_id="0"/>
+		<IR name="Add@4" out_port_id="2" id="94"/>
+	</map>
+	<map>
+		<framework name="GlobalAveragePool@5" out_port_id="0"/>
+		<IR name="GlobalAveragePool@5/reduce" out_port_id="2" id="441"/>
+	</map>
+	<map>
+		<framework name="Constant@64" out_port_id="0"/>
+		<IR name="Constant@64/EltwiseUnsqueeze15812_const" out_port_id="0" id="9"/>
+	</map>
+	<map>
+		<framework name="Mul@54" out_port_id="0"/>
+		<IR name="Mul@54" out_port_id="2" id="481"/>
+	</map>
+	<map>
+		<framework name="Relu@10" out_port_id="0"/>
+		<IR name="Relu@10" out_port_id="1" id="117"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@13" out_port_id="0"/>
+		<IR name="BatchNormalization@13/variance/Fused_Add_" out_port_id="2" id="111"/>
+	</map>
+	<map>
+		<framework name="conv14_se_2_weights" out_port_id="0"/>
+		<IR name="conv14_se_2_weights/Output_0/Data__const" out_port_id="0" id="447"/>
+	</map>
+	<map>
+		<framework name="Constant@95" out_port_id="0"/>
+		<IR name="Constant@95/EltwiseUnsqueeze15888_const" out_port_id="0" id="426"/>
+	</map>
+	<map>
+		<framework name="Conv@54" out_port_id="0"/>
+		<IR name="Conv@54" out_port_id="2" id="496"/>
+	</map>
+	<map>
+		<framework name="Mul@66" out_port_id="0"/>
+		<IR name="Mul@66" out_port_id="2" id="576"/>
+	</map>
+	<map>
+		<framework name="Cast@39" out_port_id="0"/>
+		<IR name="Mul@66" out_port_id="2" id="576"/>
+	</map>
+	<map>
+		<framework name="Slice@0" out_port_id="0"/>
+		<IR name="Slice@0" out_port_id="4" id="606"/>
+	</map>
+	<map>
+		<framework name="Cast@42" out_port_id="0"/>
+		<IR name="Slice@0" out_port_id="4" id="606"/>
+	</map>
+	<map>
+		<framework name="Constant@121" out_port_id="0"/>
+		<IR name="Constant@121/EltwiseUnsqueeze15944_const" out_port_id="0" id="515"/>
+	</map>
+	<map>
+		<framework name="conv14_se_1_weights" out_port_id="0"/>
+		<IR name="conv14_se_1_weights/Output_0/Data__const" out_port_id="0" id="442"/>
+	</map>
+	<map>
+		<framework name="Constant@123" out_port_id="0"/>
+		<IR name="Constant@123/EltwiseUnsqueeze15952_const" out_port_id="0" id="533"/>
+	</map>
+	<map>
+		<framework name="Slice@5" out_port_id="0"/>
+		<IR name="Slice@5" out_port_id="4" id="661"/>
+	</map>
+	<map>
+		<framework name="Add@63" out_port_id="0"/>
+		<IR name="Add@63" out_port_id="2" id="566"/>
+	</map>
+	<map>
+		<framework name="Mul@32" out_port_id="0"/>
+		<IR name="Mul@32" out_port_id="2" id="317"/>
+	</map>
+	<map>
+		<framework name="Concat@3" out_port_id="0"/>
+		<IR name="Concat@3" out_port_id="2" id="667"/>
+	</map>
+	<map>
+		<framework name="Reshape@15" out_port_id="0"/>
+		<IR name="Reshape@15/Output_0/Data__const" out_port_id="0" id="556"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@14" out_port_id="0"/>
+		<IR name="BatchNormalization@14/variance/Fused_Add_" out_port_id="2" id="116"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@9" out_port_id="0"/>
+		<IR name="BatchNormalization@9/variance/Fused_Add_" out_port_id="2" id="71"/>
+	</map>
+	<map>
+		<framework name="conv15_se_1_weights" out_port_id="0"/>
+		<IR name="conv15_se_1_weights/Output_0/Data__const" out_port_id="0" id="495"/>
+	</map>
+	<map>
+		<framework name="Mul@55" out_port_id="0"/>
+		<IR name="Mul@55" out_port_id="2" id="484"/>
+	</map>
+	<map>
+		<framework name="Cast@33" out_port_id="0"/>
+		<IR name="Mul@55" out_port_id="2" id="484"/>
+	</map>
+	<map>
+		<framework name="Conv@39" out_port_id="0"/>
+		<IR name="Conv@39" out_port_id="2" id="340"/>
+	</map>
+	<map>
+		<framework name="Relu@18" out_port_id="0"/>
+		<IR name="Relu@18" out_port_id="1" id="499"/>
+	</map>
+	<map>
+		<framework name="Add@13" out_port_id="0"/>
+		<IR name="Add@13" out_port_id="2" id="191"/>
+	</map>
+	<map>
+		<framework name="Constant@30" out_port_id="0"/>
+		<IR name="Constant@30/EltwiseUnsqueeze15724_const" out_port_id="0" id="229"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@27" out_port_id="0"/>
+		<IR name="BatchNormalization@27/variance/Fused_Add_" out_port_id="2" id="272"/>
+	</map>
+	<map>
+		<framework name="Constant@122" out_port_id="0"/>
+		<IR name="Constant@122/EltwiseUnsqueeze15948_const" out_port_id="0" id="534"/>
+	</map>
+	<map>
+		<framework name="Relu@4" out_port_id="0"/>
+		<IR name="Relu@4" out_port_id="1" id="62"/>
+	</map>
+	<map>
+		<framework name="Reshape@9" out_port_id="0"/>
+		<IR name="Reshape@9/Output_0/Data__const" out_port_id="0" id="399"/>
+	</map>
+	<map>
+		<framework name="Slice@2" out_port_id="0"/>
+		<IR name="Slice@2" out_port_id="4" id="634"/>
+	</map>
+	<map>
+		<framework name="Cast@43" out_port_id="0"/>
+		<IR name="Slice@2" out_port_id="4" id="634"/>
+	</map>
+	<map>
+		<framework name="Constant@22" out_port_id="0"/>
+		<IR name="Constant@22/EltwiseUnsqueeze15700_const" out_port_id="0" id="11"/>
+	</map>
+	<map>
+		<framework name="Add@35" out_port_id="0"/>
+		<IR name="Add@35" out_port_id="2" id="342"/>
+	</map>
+	<map>
+		<framework name="Resize@0" out_port_id="0"/>
+		<IR name="Resize@0" out_port_id="4" id="623"/>
+	</map>
+	<map>
+		<framework name="conv11_depthwise_weights" out_port_id="0"/>
+		<IR name="2976729770_const" out_port_id="0" id="290"/>
+	</map>
+	<map>
+		<framework name="Add@19" out_port_id="0"/>
+		<IR name="Add@19" out_port_id="2" id="235"/>
+	</map>
+	<map>
+		<framework name="Constant@59" out_port_id="0"/>
+		<IR name="Constant@59/EltwiseUnsqueeze15800_const" out_port_id="0" id="274"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@0" out_port_id="0"/>
+		<IR name="BatchNormalization@0/variance/Fused_Add_" out_port_id="2" id="20"/>
+	</map>
+	<map>
+		<framework name="Cast@0" out_port_id="0"/>
+		<IR name="BatchNormalization@0/variance/Fused_Add_" out_port_id="2" id="20"/>
+	</map>
+	<map>
+		<framework name="Add@16" out_port_id="0"/>
+		<IR name="Add@16" out_port_id="2" id="219"/>
+	</map>
+	<map>
+		<framework name="Mul@15" out_port_id="0"/>
+		<IR name="Mul@15" out_port_id="2" id="230"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@12" out_port_id="0"/>
+		<IR name="BatchNormalization@12/variance/Fused_Add_" out_port_id="2" id="107"/>
+	</map>
+	<map>
+		<framework name="Mul@68" out_port_id="0"/>
+		<IR name="Mul@68" out_port_id="2" id="592"/>
+	</map>
+	<map>
+		<framework name="conv5_depthwise_weights" out_port_id="0"/>
+		<IR name="2979129794_const" out_port_id="0" id="78"/>
+	</map>
+	<map>
+		<framework name="Add@5" out_port_id="0"/>
+		<IR name="Add@5" out_port_id="2" id="99"/>
+	</map>
+	<map>
+		<framework name="Constant@126" out_port_id="0"/>
+		<IR name="Constant@126/EltwiseUnsqueeze15956_const" out_port_id="0" id="514"/>
+	</map>
+	<map>
+		<framework name="Conv@18" out_port_id="0"/>
+		<IR name="Conv@18" out_port_id="2" id="132"/>
+	</map>
+	<map>
+		<framework name="Constant@40" out_port_id="0"/>
+		<IR name="Constant@40/EltwiseUnsqueeze15748_const" out_port_id="0" id="244"/>
+	</map>
+	<map>
+		<framework name="Clip@10" out_port_id="0"/>
+		<IR name="Clip@10" out_port_id="1" id="327"/>
+	</map>
+	<map>
+		<framework name="conv12_depthwise_weights" out_port_id="0"/>
+		<IR name="2974729750_const" out_port_id="0" id="319"/>
+	</map>
+	<map>
+		<framework name="Constant@85" out_port_id="0"/>
+		<IR name="Constant@85/EltwiseUnsqueeze15864_const" out_port_id="0" id="356"/>
+	</map>
+	<map>
+		<framework name="ArgMax@0" out_port_id="0"/>
+		<IR name="ArgMax@0/Squeeze" out_port_id="2" id="689"/>
+	</map>
+	<map>
+		<framework name="Constant@102" out_port_id="0"/>
+		<IR name="Constant@102/EltwiseUnsqueeze15900_const" out_port_id="0" id="468"/>
+	</map>
+	<map>
+		<framework name="conv15_depthwise_weights" out_port_id="0"/>
+		<IR name="2980329806_const" out_port_id="0" id="475"/>
+	</map>
+	<map>
+		<framework name="Mul@64" out_port_id="0"/>
+		<IR name="Mul@64" out_port_id="2" id="561"/>
+	</map>
+	<map>
+		<framework name="Clip@12" out_port_id="0"/>
+		<IR name="Clip@12" out_port_id="1" id="380"/>
+	</map>
+	<map>
+		<framework name="Reshape@12" out_port_id="0"/>
+		<IR name="Reshape@12/Output_0/Data__const" out_port_id="0" id="497"/>
+	</map>
+	<map>
+		<framework name="Relu@16" out_port_id="0"/>
+		<IR name="Relu@16" out_port_id="1" id="396"/>
+	</map>
+	<map>
+		<framework name="Conv@60" out_port_id="0"/>
+		<IR name="Conv@60" out_port_id="2" id="555"/>
+	</map>
+	<map>
+		<framework name="Add@32" out_port_id="0"/>
+		<IR name="Add@32" out_port_id="2" id="318"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@1" out_port_id="0"/>
+		<IR name="BatchNormalization@1/variance/Fused_Add_" out_port_id="2" id="32"/>
+	</map>
+	<map>
+		<framework name="Mul@52" out_port_id="0"/>
+		<IR name="Mul@52" out_port_id="2" id="472"/>
+	</map>
+	<map>
+		<framework name="Cast@31" out_port_id="0"/>
+		<IR name="Mul@52" out_port_id="2" id="472"/>
+	</map>
+	<map>
+		<framework name="HardSigmoid@4" out_port_id="0"/>
+		<IR name="HardSigmoid@4/HardSigmoid_" out_port_id="3" id="403"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@33" out_port_id="0"/>
+		<IR name="BatchNormalization@33/variance/Fused_Add_" out_port_id="2" id="355"/>
+	</map>
+	<map>
+		<framework name="Add@23" out_port_id="0"/>
+		<IR name="Add@23" out_port_id="2" id="264"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@34" out_port_id="0"/>
+		<IR name="BatchNormalization@34/variance/Fused_Add_" out_port_id="2" id="363"/>
+	</map>
+	<map>
+		<framework name="Cast@22" out_port_id="0"/>
+		<IR name="BatchNormalization@34/variance/Fused_Add_" out_port_id="2" id="363"/>
+	</map>
+	<map>
+		<framework name="Add@38" out_port_id="0"/>
+		<IR name="Add@38" out_port_id="2" id="371"/>
+	</map>
+	<map>
+		<framework name="conv12_se_1_weights" out_port_id="0"/>
+		<IR name="conv12_se_1_weights/Output_0/Data__const" out_port_id="0" id="339"/>
+	</map>
+	<map>
+		<framework name="Constant@43" out_port_id="0"/>
+		<IR name="Constant@43/EltwiseUnsqueeze15760_const" out_port_id="0" id="261"/>
+	</map>
+	<map>
+		<framework name="conv10_linear_weights" out_port_id="0"/>
+		<IR name="BatchNormalization@27/mean/Fused_Mul_1688416886_const" out_port_id="0" id="269"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@18" out_port_id="0"/>
+		<IR name="BatchNormalization@18/variance/Fused_Add_" out_port_id="2" id="178"/>
+	</map>
+	<map>
+		<framework name="Identity@1" out_port_id="0"/>
+		<IR name="save_infer_model/scale_1.tmp_0" out_port_id="2" id="708"/>
+	</map>
+	<map>
+		<framework name="Transpose@2" out_port_id="0"/>
+		<IR name="save_infer_model/scale_1.tmp_0" out_port_id="2" id="708"/>
+	</map>
+	<map>
+		<framework name="BatchNormalization@43" out_port_id="0"/>
+		<IR name="BatchNormalization@43/variance/Fused_Add_" out_port_id="2" id="520"/>
+	</map>
+	<map>
+		<framework name="Cast@34" out_port_id="0"/>
+		<IR name="BatchNormalization@43/variance/Fused_Add_" out_port_id="2" id="520"/>
+	</map>
+	<map>
+		<framework name="Constant@127" out_port_id="0"/>
+		<IR name="Constant@127/EltwiseUnsqueeze15960_const" out_port_id="0" id="513"/>
+	</map>
+	<map>
+		<framework name="Relu@5" out_port_id="0"/>
+		<IR name="Relu@5" out_port_id="1" id="67"/>
+	</map>
+	<map>
+		<framework name="Mul@6" out_port_id="0"/>
+		<IR name="Mul@6" out_port_id="2" id="186"/>
+	</map>
+	<map>
+		<framework name="Relu@11" out_port_id="0"/>
+		<IR name="Relu@11" out_port_id="1" id="130"/>
+	</map>
+	<map>
+		<framework name="Softmax@0" out_port_id="0"/>
+		<IR name="Softmax@0" out_port_id="2" id="706"/>
+	</map>
+	<map>
+		<framework name="Mul@36" out_port_id="0"/>
+		<IR name="Mul@36" out_port_id="2" id="351"/>
+	</map>
+</mapping>
